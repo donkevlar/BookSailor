@@ -109,7 +109,7 @@ class WebsiteNavigationRPA:
             login_button.click()
 
             # Wait for login to complete
-            time.sleep(2)
+            time.sleep(0.5)
             logger.info("Login successful")
 
         except TimeoutException:
@@ -122,7 +122,6 @@ class WebsiteNavigationRPA:
         try:
             logger.info('Navigating to Login Page.')
             self.driver.get(url)
-            time.sleep(0.5)
 
         except Exception as e:
             logger.error(f"Error navigating to login page! {e}")
@@ -146,7 +145,7 @@ class WebsiteNavigationRPA:
             self.driver.get(search_url)
 
             # Wait for search results to load
-            time.sleep(3)
+            time.sleep(1)
             logger.info("Search complete")
 
         except Exception as e:
