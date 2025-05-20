@@ -50,10 +50,6 @@ class WebsiteNavigationRPA:
             # Get absolute path
             if os.path.isabs(download_dir):
                 self.download_dir = download_dir
-            else:
-                # Get the directory where the script is located
-                base_path = os.path.dirname(os.path.abspath(__file__))
-                self.download_dir = os.path.abspath(os.path.join(base_path, download_dir))
 
             # Ensure directory exists
             if not os.path.exists(self.download_dir):
@@ -108,9 +104,17 @@ class WebsiteNavigationRPA:
             login_button = self.driver.find_element(By.CSS_SELECTOR, '.login-button')
             login_button.click()
 
-            # Wait for login to complete
-            time.sleep(0.5)
-            logger.info("Login successful")
+            try:
+                # Verify if the user logged in.
+                self.wait.until(
+                    EC.url_to_be('https://audiobookbay.lu/member/users/')
+                )
+                logger.info("Login successful")
+                return True
+
+            except Exception as e:
+                logger.error(f"Error logging into audiobook bay! {e}")
+                return False
 
         except TimeoutException:
             # No login form found, continue with the process
