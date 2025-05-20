@@ -1,0 +1,1133 @@
+2025-05-19 16:17:57,681 - INFO - Navigating to https://audiobookbay.lu
+2025-05-19 16:18:15,569 - INFO - No login required
+2025-05-19 16:18:15,570 - INFO - Searching for: he who fights with monsters
+2025-05-19 16:18:15,570 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 16:18:19,295 - INFO - Search complete
+2025-05-19 16:18:19,295 - INFO - Processing search results
+2025-05-19 16:18:29,385 - ERROR - Automation failed: Message: 
+
+2025-05-19 16:18:34,386 - INFO - Closing browser
+2025-05-19 16:59:55,417 - INFO - Searching for: he who fights with monsters
+2025-05-19 16:59:55,418 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 17:00:00,679 - INFO - Search complete
+2025-05-19 17:00:00,679 - INFO - Processing search results
+2025-05-19 17:00:10,771 - ERROR - Automation failed: Message: 
+
+2025-05-19 17:00:15,771 - INFO - Closing browser
+2025-05-19 17:02:21,237 - INFO - Searching for: he who fights with monsters
+2025-05-19 17:02:21,238 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 17:02:26,555 - INFO - Search complete
+2025-05-19 17:02:26,555 - INFO - Processing search results
+2025-05-19 17:02:26,563 - INFO - Found 1 posts
+2025-05-19 17:02:26,576 - INFO - Processing post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 17:02:27,200 - INFO - Processing download page
+2025-05-19 17:02:37,295 - ERROR - Error on download page: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71D28CF65+75717]
+	GetHandleVerifier [0x00007FF71D28CFC0+75808]
+	(No symbol) [0x00007FF71D058F9A]
+	(No symbol) [0x00007FF71D0AF4C6]
+	(No symbol) [0x00007FF71D0AF77C]
+	(No symbol) [0x00007FF71D102577]
+	(No symbol) [0x00007FF71D0D73BF]
+	(No symbol) [0x00007FF71D0FF39C]
+	(No symbol) [0x00007FF71D0D7153]
+	(No symbol) [0x00007FF71D0A0421]
+	(No symbol) [0x00007FF71D0A11B3]
+	GetHandleVerifier [0x00007FF71D58D74D+3223469]
+	GetHandleVerifier [0x00007FF71D587CF2+3200338]
+	GetHandleVerifier [0x00007FF71D5A5B23+3322755]
+	GetHandleVerifier [0x00007FF71D2A6A3A+180890]
+	GetHandleVerifier [0x00007FF71D2AE13F+211359]
+	GetHandleVerifier [0x00007FF71D2952B4+109332]
+	GetHandleVerifier [0x00007FF71D295462+109762]
+	GetHandleVerifier [0x00007FF71D27BA79+4825]
+	BaseThreadInitThunk [0x00007FFCCE13257D+29]
+	RtlUserThreadStart [0x00007FFCCF26AF08+40]
+
+2025-05-19 17:02:37,295 - ERROR - Error processing post 1: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71D28CF65+75717]
+	GetHandleVerifier [0x00007FF71D28CFC0+75808]
+	(No symbol) [0x00007FF71D058F9A]
+	(No symbol) [0x00007FF71D0AF4C6]
+	(No symbol) [0x00007FF71D0AF77C]
+	(No symbol) [0x00007FF71D102577]
+	(No symbol) [0x00007FF71D0D73BF]
+	(No symbol) [0x00007FF71D0FF39C]
+	(No symbol) [0x00007FF71D0D7153]
+	(No symbol) [0x00007FF71D0A0421]
+	(No symbol) [0x00007FF71D0A11B3]
+	GetHandleVerifier [0x00007FF71D58D74D+3223469]
+	GetHandleVerifier [0x00007FF71D587CF2+3200338]
+	GetHandleVerifier [0x00007FF71D5A5B23+3322755]
+	GetHandleVerifier [0x00007FF71D2A6A3A+180890]
+	GetHandleVerifier [0x00007FF71D2AE13F+211359]
+	GetHandleVerifier [0x00007FF71D2952B4+109332]
+	GetHandleVerifier [0x00007FF71D295462+109762]
+	GetHandleVerifier [0x00007FF71D27BA79+4825]
+	BaseThreadInitThunk [0x00007FFCCE13257D+29]
+	RtlUserThreadStart [0x00007FFCCF26AF08+40]
+
+2025-05-19 17:02:47,389 - INFO - No login required
+2025-05-19 17:02:47,389 - INFO - Automation completed successfully
+2025-05-19 17:02:52,389 - INFO - Closing browser
+2025-05-19 17:18:14,404 - INFO - Searching for: he who fights with monsters
+2025-05-19 17:18:14,404 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 17:18:19,582 - INFO - Search complete
+2025-05-19 17:18:19,582 - INFO - Processing search results
+2025-05-19 17:18:19,590 - INFO - Found 1 posts
+2025-05-19 17:18:19,603 - INFO - Processing post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 17:18:20,251 - INFO - Processing download page
+2025-05-19 17:18:20,268 - INFO - Clicking torrent download button
+2025-05-19 17:18:26,233 - INFO - No additional download button found, torrent might be downloading directly
+2025-05-19 17:18:43,339 - ERROR - Error processing post 1: Message: 
+
+2025-05-19 17:18:53,434 - INFO - No login required
+2025-05-19 17:18:53,434 - INFO - Automation completed successfully
+2025-05-19 17:18:58,435 - INFO - Closing browser
+2025-05-19 17:21:43,856 - INFO - Searching for: he who fights with monsters
+2025-05-19 17:21:43,856 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 17:21:49,118 - INFO - Search complete
+2025-05-19 17:21:49,118 - INFO - Processing search results
+2025-05-19 17:21:49,126 - INFO - Found 1 posts
+2025-05-19 17:21:49,138 - INFO - Processing post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 17:21:49,765 - INFO - Processing download page
+2025-05-19 17:21:49,781 - INFO - Clicking torrent download button
+2025-05-19 17:21:50,697 - INFO - Login required. Attempting to login.
+2025-05-19 17:21:53,194 - INFO - Login successful
+2025-05-19 17:22:10,628 - ERROR - Error processing post 1: Message: 
+
+2025-05-19 17:22:10,631 - INFO - Login required. Attempting to login.
+2025-05-19 17:22:12,809 - INFO - Login successful
+2025-05-19 17:22:12,809 - INFO - Automation completed successfully
+2025-05-19 17:22:17,810 - INFO - Closing browser
+2025-05-19 17:33:28,001 - INFO - Searching for: he who fights with monsters
+2025-05-19 17:33:28,001 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 17:33:33,283 - INFO - Search complete
+2025-05-19 17:33:33,283 - INFO - Processing search results
+2025-05-19 17:33:33,292 - INFO - Found 9 posts
+2025-05-19 17:33:33,308 - INFO - Processing post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 17:33:33,913 - INFO - Processing download page
+2025-05-19 17:33:33,929 - INFO - Clicking torrent download button
+2025-05-19 17:33:34,744 - INFO - Login required. Attempting to login.
+2025-05-19 17:33:36,903 - INFO - Login successful
+2025-05-19 17:33:42,531 - ERROR - Error processing post 2: list index out of range
+2025-05-19 17:33:42,535 - ERROR - Error processing post 3: list index out of range
+2025-05-19 17:33:42,539 - ERROR - Error processing post 4: list index out of range
+2025-05-19 17:33:42,542 - ERROR - Error processing post 5: list index out of range
+2025-05-19 17:33:42,545 - ERROR - Error processing post 6: list index out of range
+2025-05-19 17:33:42,548 - ERROR - Error processing post 7: list index out of range
+2025-05-19 17:33:42,552 - ERROR - Error processing post 8: list index out of range
+2025-05-19 17:33:42,555 - ERROR - Error processing post 9: list index out of range
+2025-05-19 17:33:42,559 - INFO - Login required. Attempting to login.
+2025-05-19 17:33:44,739 - INFO - Login successful
+2025-05-19 17:33:44,739 - INFO - Automation completed successfully
+2025-05-19 17:33:49,740 - INFO - Closing browser
+2025-05-19 17:36:44,237 - INFO - Searching for: he who fights with monsters
+2025-05-19 17:36:44,237 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 17:36:49,559 - INFO - Search complete
+2025-05-19 17:36:49,559 - INFO - Processing search results
+2025-05-19 17:36:49,568 - INFO - Found 9 posts
+2025-05-19 17:36:49,584 - INFO - Processing post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 17:36:50,191 - INFO - Processing download page
+2025-05-19 17:36:50,207 - INFO - Clicking torrent download button
+2025-05-19 17:36:51,031 - INFO - Login required. Attempting to login.
+2025-05-19 17:36:53,675 - INFO - Login successful
+2025-05-19 17:36:59,319 - ERROR - Error processing post 2: list index out of range
+2025-05-19 17:36:59,323 - ERROR - Error processing post 3: list index out of range
+2025-05-19 17:36:59,327 - ERROR - Error processing post 4: list index out of range
+2025-05-19 17:36:59,331 - ERROR - Error processing post 5: list index out of range
+2025-05-19 17:36:59,334 - ERROR - Error processing post 6: list index out of range
+2025-05-19 17:36:59,337 - ERROR - Error processing post 7: list index out of range
+2025-05-19 17:36:59,341 - ERROR - Error processing post 8: list index out of range
+2025-05-19 17:36:59,344 - ERROR - Error processing post 9: list index out of range
+2025-05-19 17:36:59,347 - INFO - Login required. Attempting to login.
+2025-05-19 17:37:02,339 - INFO - Login successful
+2025-05-19 17:37:02,339 - INFO - Automation completed successfully
+2025-05-19 17:37:07,339 - INFO - Closing browser
+2025-05-19 17:37:33,764 - INFO - Searching for: he who fights with monsters
+2025-05-19 17:37:33,764 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 17:37:38,983 - INFO - Search complete
+2025-05-19 17:37:38,983 - INFO - Processing search results
+2025-05-19 17:37:38,991 - INFO - Found 9 posts
+2025-05-19 17:37:39,006 - INFO - Processing post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 17:37:39,619 - INFO - Processing download page
+2025-05-19 17:37:39,635 - INFO - Clicking torrent download button
+2025-05-19 17:37:40,476 - INFO - Login required. Attempting to login.
+2025-05-19 17:37:43,108 - INFO - Login successful
+2025-05-19 17:37:48,736 - ERROR - Error processing post 2: list index out of range
+2025-05-19 17:37:48,739 - ERROR - Error processing post 3: list index out of range
+2025-05-19 17:37:48,743 - ERROR - Error processing post 4: list index out of range
+2025-05-19 17:37:48,746 - ERROR - Error processing post 5: list index out of range
+2025-05-19 17:37:48,749 - ERROR - Error processing post 6: list index out of range
+2025-05-19 17:37:48,752 - ERROR - Error processing post 7: list index out of range
+2025-05-19 17:37:48,756 - ERROR - Error processing post 8: list index out of range
+2025-05-19 17:37:48,759 - ERROR - Error processing post 9: list index out of range
+2025-05-19 17:37:48,762 - INFO - Login required. Attempting to login.
+2025-05-19 17:37:51,727 - INFO - Login successful
+2025-05-19 17:37:51,727 - INFO - Automation completed successfully
+2025-05-19 17:37:56,728 - INFO - Closing browser
+2025-05-19 17:38:39,498 - INFO - Searching for: he who fights with monsters
+2025-05-19 17:38:39,498 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 17:38:44,773 - INFO - Search complete
+2025-05-19 17:38:44,773 - INFO - Processing search results
+2025-05-19 17:38:44,781 - INFO - Found 9 posts
+2025-05-19 17:38:44,796 - INFO - Processing post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 17:38:45,402 - INFO - Processing download page
+2025-05-19 17:38:45,418 - INFO - Clicking torrent download button
+2025-05-19 17:38:46,208 - INFO - Login required. Attempting to login.
+2025-05-19 17:38:48,839 - INFO - Login successful
+2025-05-19 17:38:54,461 - ERROR - Error processing post 2: list index out of range
+2025-05-19 17:38:54,465 - ERROR - Error processing post 3: list index out of range
+2025-05-19 17:38:54,468 - ERROR - Error processing post 4: list index out of range
+2025-05-19 17:38:54,471 - ERROR - Error processing post 5: list index out of range
+2025-05-19 17:38:54,474 - ERROR - Error processing post 6: list index out of range
+2025-05-19 17:38:54,478 - ERROR - Error processing post 7: list index out of range
+2025-05-19 17:38:54,481 - ERROR - Error processing post 8: list index out of range
+2025-05-19 17:38:54,484 - ERROR - Error processing post 9: list index out of range
+2025-05-19 17:38:54,488 - INFO - Login required. Attempting to login.
+2025-05-19 17:38:57,125 - INFO - Login successful
+2025-05-19 17:38:57,125 - INFO - Automation completed successfully
+2025-05-19 17:39:02,125 - INFO - Closing browser
+2025-05-19 17:47:51,972 - INFO - Navigating to Login Page.
+2025-05-19 17:47:54,461 - INFO - Login required. Attempting to login.
+2025-05-19 17:47:58,117 - INFO - Login successful
+2025-05-19 17:47:58,117 - INFO - Searching for: he who fights with monsters
+2025-05-19 17:47:58,117 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 17:48:01,796 - INFO - Search complete
+2025-05-19 17:48:01,796 - INFO - Processing search results
+2025-05-19 17:48:01,803 - INFO - Found 9 posts
+2025-05-19 17:48:01,819 - INFO - Processing post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 17:48:02,470 - INFO - Processing download page
+2025-05-19 17:48:02,487 - INFO - Clicking torrent download button
+2025-05-19 17:48:12,851 - INFO - No login required
+2025-05-19 17:48:17,884 - INFO - Processing post 2: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 17:48:19,715 - INFO - Processing download page
+2025-05-19 17:48:19,730 - INFO - Clicking torrent download button
+2025-05-19 17:48:30,110 - INFO - No login required
+2025-05-19 17:48:35,144 - INFO - Processing post 3: He Who Fights with Monsters 9 [updated] - Shirtaloon, Travis Deverell
+2025-05-19 17:48:35,784 - INFO - Processing download page
+2025-05-19 17:48:35,795 - INFO - Clicking torrent download button
+2025-05-19 17:48:46,394 - INFO - No login required
+2025-05-19 17:48:51,431 - INFO - Processing post 4: He Who Fights with Monsters 9 - Shirtaloon, Travis Deverell
+2025-05-19 17:48:51,951 - INFO - Processing download page
+2025-05-19 17:48:51,968 - INFO - Clicking torrent download button
+2025-05-19 17:49:02,571 - INFO - No login required
+2025-05-19 17:49:07,610 - INFO - Processing post 5: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 17:49:08,113 - INFO - Processing download page
+2025-05-19 17:49:08,133 - INFO - Clicking torrent download button
+2025-05-19 17:49:18,470 - INFO - No login required
+2025-05-19 17:49:23,510 - INFO - Processing post 6: He Who Fights with Monsters 5 - Shirtaloon, Travis Deverell
+2025-05-19 17:49:24,072 - INFO - Processing download page
+2025-05-19 17:49:24,096 - INFO - Clicking torrent download button
+2025-05-19 17:49:34,636 - INFO - No login required
+2025-05-19 17:49:40,863 - INFO - Closing browser
+2025-05-19 17:49:44,950 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C8386C8B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/776aa256a0292bb8d0e2032ad57ae8ca
+2025-05-19 17:49:49,032 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C8386C9700>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/776aa256a0292bb8d0e2032ad57ae8ca
+2025-05-19 17:51:21,885 - INFO - Navigating to Login Page.
+2025-05-19 17:51:24,244 - INFO - Login required. Attempting to login.
+2025-05-19 17:51:26,868 - INFO - Login successful
+2025-05-19 17:51:26,868 - INFO - Searching for: he who fights with monsters
+2025-05-19 17:51:26,868 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 17:51:30,532 - INFO - Search complete
+2025-05-19 17:51:30,532 - INFO - Processing search results
+2025-05-19 17:51:30,539 - INFO - Found 9 posts
+2025-05-19 17:51:30,554 - INFO - Processing post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 17:51:31,191 - INFO - Processing download page
+2025-05-19 17:51:31,208 - INFO - Clicking torrent download button
+2025-05-19 17:51:41,544 - INFO - No login required
+2025-05-19 17:51:42,573 - INFO - Processing post 2: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 17:51:43,290 - INFO - Processing download page
+2025-05-19 17:51:43,303 - INFO - Clicking torrent download button
+2025-05-19 17:51:53,677 - INFO - No login required
+2025-05-19 17:51:54,705 - INFO - Processing post 3: He Who Fights with Monsters 9 [updated] - Shirtaloon, Travis Deverell
+2025-05-19 17:51:55,359 - INFO - Processing download page
+2025-05-19 17:51:55,374 - INFO - Clicking torrent download button
+2025-05-19 17:52:01,887 - INFO - Closing browser
+2025-05-19 17:52:05,967 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B7D2C2A000>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2cb77bf7317cd9ac3829e16d6ee21fe2
+2025-05-19 17:52:10,013 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B7D3099340>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2cb77bf7317cd9ac3829e16d6ee21fe2
+2025-05-19 17:52:14,075 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B7D3099370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2cb77bf7317cd9ac3829e16d6ee21fe2
+2025-05-19 17:57:54,706 - INFO - Navigating to Login Page.
+2025-05-19 17:57:57,161 - INFO - Login required. Attempting to login.
+2025-05-19 17:57:59,812 - INFO - Login successful
+2025-05-19 17:57:59,812 - INFO - Searching for: he who fights with monsters
+2025-05-19 17:57:59,812 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 17:58:03,468 - INFO - Search complete
+2025-05-19 17:58:03,468 - INFO - Fetching search result titles
+2025-05-19 17:58:03,474 - INFO - Found 9 posts
+2025-05-19 17:58:03,490 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 17:58:03,501 - INFO - Found post 2: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 17:58:03,510 - INFO - Found post 3: He Who Fights with Monsters 9 [updated] - Shirtaloon, Travis Deverell
+2025-05-19 17:58:03,520 - INFO - Found post 4: He Who Fights with Monsters 9 - Shirtaloon, Travis Deverell
+2025-05-19 17:58:03,530 - INFO - Found post 5: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 17:58:03,540 - INFO - Found post 6: He Who Fights with Monsters 5 - Shirtaloon, Travis Deverell
+2025-05-19 17:58:03,549 - INFO - Found post 7: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 17:58:03,558 - INFO - Found post 8: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 17:58:03,568 - INFO - Found post 9: He Who Fights with Monsters - A LitRPG Adventure, Book 1 - Shirtaloon
+2025-05-19 17:58:03,568 - INFO - Automation completed successfully
+2025-05-19 17:58:08,568 - INFO - Closing browser
+2025-05-19 19:48:42,375 - INFO - Navigating to Login Page.
+2025-05-19 19:48:44,865 - INFO - Login required. Attempting to login.
+2025-05-19 19:48:47,489 - INFO - Login successful
+2025-05-19 19:48:47,489 - INFO - Searching for: he who fights with monsters
+2025-05-19 19:48:47,489 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters
+2025-05-19 19:48:51,310 - INFO - Search complete
+2025-05-19 19:48:51,310 - INFO - Fetching search result titles
+2025-05-19 19:48:51,317 - INFO - Found 9 posts
+2025-05-19 19:48:51,333 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 19:48:51,343 - INFO - Found post 2: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 19:48:51,353 - INFO - Found post 3: He Who Fights with Monsters 9 [updated] - Shirtaloon, Travis Deverell
+2025-05-19 19:48:51,362 - INFO - Found post 4: He Who Fights with Monsters 9 - Shirtaloon, Travis Deverell
+2025-05-19 19:48:51,371 - INFO - Found post 5: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 19:48:51,381 - INFO - Found post 6: He Who Fights with Monsters 5 - Shirtaloon, Travis Deverell
+2025-05-19 19:48:51,390 - INFO - Found post 7: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 19:48:51,399 - INFO - Found post 8: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 19:48:51,409 - INFO - Found post 9: He Who Fights with Monsters - A LitRPG Adventure, Book 1 - Shirtaloon
+2025-05-19 19:48:51,409 - INFO - Automation completed successfully
+2025-05-19 19:48:56,409 - INFO - Closing browser
+2025-05-19 21:55:18,867 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 21:55:18,868 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 21:55:19,084 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 21:55:19,193 - INFO - Launching Audio Sailor!
+2025-05-19 21:56:28,988 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 21:57:37,909 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 21:57:37,909 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 21:57:38,195 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 21:57:38,325 - INFO - Launching Book Sailor!
+2025-05-19 21:58:26,820 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 21:59:48,385 - INFO - Loading Commands...
+2025-05-19 21:59:48,828 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 21:59:48,828 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 21:59:49,123 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 21:59:49,272 - INFO - Launching Book Sailor!
+2025-05-19 22:01:44,810 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:01:45,648 - INFO - Loading Commands...
+2025-05-19 22:01:46,066 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:01:46,066 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:01:46,491 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:01:46,616 - INFO - Launching Book Sailor!
+2025-05-19 22:02:25,702 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:02:26,486 - INFO - Loading Commands...
+2025-05-19 22:02:27,212 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:02:27,212 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:02:27,839 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:02:28,139 - INFO - Launching Book Sailor!
+2025-05-19 22:10:30,045 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:10:30,804 - INFO - Loading Commands...
+2025-05-19 22:10:31,426 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:10:31,427 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:10:31,697 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:10:31,843 - INFO - Launching Book Sailor!
+2025-05-19 22:14:01,808 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:14:02,709 - INFO - Loading Commands...
+2025-05-19 22:14:03,216 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:14:03,217 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:14:03,571 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:14:03,670 - INFO - Launching Book Sailor!
+2025-05-19 22:14:14,989 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:14:15,752 - INFO - Loading Commands...
+2025-05-19 22:14:16,130 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:14:16,130 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:14:16,370 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:14:16,484 - INFO - Launching Book Sailor!
+2025-05-19 22:14:47,001 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:14:47,746 - INFO - Loading Commands...
+2025-05-19 22:14:48,158 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:14:48,159 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:14:48,576 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:14:48,713 - INFO - Launching Book Sailor!
+2025-05-19 22:24:50,221 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:24:51,103 - INFO - Loading Commands...
+2025-05-19 22:24:51,563 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:24:51,563 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:24:51,845 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:24:52,105 - INFO - Overwriting 0 with 1 application commands
+2025-05-19 22:24:52,348 - INFO - Launching Book Sailor!
+2025-05-19 22:25:23,782 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:25:24,637 - INFO - Loading Commands...
+2025-05-19 22:25:24,986 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:25:24,986 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:25:25,375 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:25:25,627 - INFO - Launching Book Sailor!
+2025-05-19 22:25:51,995 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<Client._dispatch_interaction() done, defined at C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\interactions\client\client.py:1898> exception=ValueError('Autocomplete callback for book not found')>
+Traceback (most recent call last):
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\interactions\client\client.py", line 1942, in _dispatch_interaction
+    raise ValueError(f"Autocomplete callback for {auto_opt.name!s} not found")
+ValueError: Autocomplete callback for book not found
+2025-05-19 22:26:01,020 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:26:01,889 - INFO - Loading Commands...
+2025-05-19 22:26:02,309 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:26:02,309 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:26:02,541 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:26:02,913 - INFO - Overwriting 0 with 1 application commands
+2025-05-19 22:26:03,248 - INFO - Launching Book Sailor!
+2025-05-19 22:27:28,372 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:27:29,206 - INFO - Loading Commands...
+2025-05-19 22:27:29,613 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:27:29,613 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:27:29,922 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:27:30,246 - INFO - Overwriting 0 with 1 application commands
+2025-05-19 22:27:30,478 - INFO - Launching Book Sailor!
+2025-05-19 22:28:04,065 - INFO - Navigating to Login Page.
+2025-05-19 22:28:06,553 - INFO - Login required. Attempting to login.
+2025-05-19 22:28:09,180 - INFO - Login successful
+2025-05-19 22:28:09,180 - INFO - Searching for: He who fights with monsters 11
+2025-05-19 22:28:09,180 - INFO - Using search URL: https://audiobookbay.lu//?s=He+who+fights+with+monsters+11
+2025-05-19 22:28:13,094 - INFO - Search complete
+2025-05-19 22:28:13,094 - INFO - Fetching search result titles
+2025-05-19 22:28:13,101 - INFO - Found 9 posts
+2025-05-19 22:28:13,122 - INFO - Found post 1: Cat on a Hot Tin Roof - Tennessee Williams
+2025-05-19 22:28:13,132 - INFO - Found post 2: The Proof of My Innocence - Jonathan Coe
+2025-05-19 22:28:13,142 - INFO - Found post 3: Don’t Make Me Laugh - Julia Raeside
+2025-05-19 22:28:13,152 - INFO - Found post 4: Rudy Rucker Audio Book Collection - Rudy Rucker
+2025-05-19 22:28:13,162 - INFO - Found post 5: Poor Artists: A Quest Into the Art World - Gabrielle de la Puente, Zarina Muhammad
+2025-05-19 22:28:13,172 - INFO - Found post 6: Memoirs of a Fox-Hunting Man: The Sherston Trilogy, Book 1 - Siegfried Sassoon
+2025-05-19 22:28:13,182 - INFO - Found post 7: Eidolon Master 4: Tamer of Animal Women - Eric Vall
+2025-05-19 22:28:13,191 - INFO - Found post 8: The Famine Plot: England’s Role in Ireland’s Greatest Tragedy - Tim Pat Coogan
+2025-05-19 22:28:13,202 - INFO - Found post 9: Starbreaker Volume 1 - Luke Chmilenko
+2025-05-19 22:28:13,323 - ERROR - PATCH::https://discord.com/api/v10/webhooks/1374198663022379101/aW50ZXJhY3Rpb246MTM3NDIxMjgyMDA5ODM1MTE1NTprVTFGYmVoVmFuTkZmbzkzU0lyTFcwRmE3YXNQQ0dGVVl4dWczNk5IU2lZVHlLZVkwR3lNSzUxM2xOWDdWOGIydmhWb09kMWtYUkg1UjJWWk01RjVYVTdycWdxU1pLTExoeUh5dEFvZzAzRUtFQTRZWTR2WW1xOE53WXNLRDVMNw/messages/%40original: 400
+2025-05-19 22:28:13,327 - INFO - Command Called: get-book with event.ctx.args = ['He who fights with monsters 11'] | event.ctx.kwargs = {'book': 'He who fights with monsters 11'}
+2025-05-19 22:28:13,328 - ERROR - Ignoring exception in cmd `/get-book`: HTTPException: 400|Bad Request: components->0->components->0->options BASE_TYPE_BAD_LENGTH: Must be between 1 and 25 in length.
+2025-05-19 22:29:49,287 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:29:50,159 - INFO - Loading Commands...
+2025-05-19 22:29:50,772 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:29:50,772 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:29:51,111 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:29:51,330 - INFO - Launching Book Sailor!
+2025-05-19 22:30:35,765 - INFO - Navigating to Login Page.
+2025-05-19 22:30:38,239 - INFO - Login required. Attempting to login.
+2025-05-19 22:30:40,864 - INFO - Login successful
+2025-05-19 22:30:40,864 - INFO - Searching for: he who fights with monsters 11
+2025-05-19 22:30:40,864 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-19 22:30:44,697 - INFO - Search complete
+2025-05-19 22:30:44,697 - INFO - Fetching search result titles
+2025-05-19 22:30:44,703 - INFO - Found 9 posts
+2025-05-19 22:30:44,720 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 22:30:44,730 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 22:30:44,740 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 22:30:44,750 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-19 22:30:44,759 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-19 22:30:44,769 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 22:30:44,779 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 22:30:44,789 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 22:30:44,798 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-19 22:30:44,949 - ERROR - PATCH::https://discord.com/api/v10/webhooks/1374198663022379101/aW50ZXJhY3Rpb246MTM3NDIxMzQ1NjY1MTA5NjE4NzozMHE3SHNXVHI3SGNUWTNMYlZPZU5jazVoblpCeURQemJCMGpWSm5BY2xVSXlndWNqOUFDcm5YNk5YeHVBcU9FZVFaRG1sNTlGd1Z2ZnZVSUFkV0d0eUdleHVTS2tlUlpCd29pdE91VDJBbG1HbW1XTUtKdVNOSnFOVkYwWTJadw/messages/%40original: 400
+2025-05-19 22:30:44,953 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-19 22:30:44,954 - ERROR - Ignoring exception in cmd `/get-book`: HTTPException: 400|Bad Request: components->0->components->0->options BASE_TYPE_BAD_LENGTH: Must be between 1 and 25 in length.
+2025-05-19 22:36:29,305 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:36:30,222 - INFO - Loading Commands...
+2025-05-19 22:36:30,851 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:36:30,851 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:36:31,123 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:36:31,439 - INFO - Launching Book Sailor!
+2025-05-19 22:36:52,893 - INFO - Navigating to Login Page.
+2025-05-19 22:36:55,346 - INFO - Login required. Attempting to login.
+2025-05-19 22:36:57,975 - INFO - Login successful
+2025-05-19 22:36:57,975 - INFO - Searching for: He who fights with monster 11
+2025-05-19 22:36:57,975 - INFO - Using search URL: https://audiobookbay.lu/?s=He+who+fights+with+monster+11
+2025-05-19 22:37:01,827 - INFO - Search complete
+2025-05-19 22:37:01,827 - INFO - Fetching search result titles
+2025-05-19 22:37:01,834 - INFO - Found 9 posts
+2025-05-19 22:37:01,850 - INFO - Found post 1: Cat on a Hot Tin Roof - Tennessee Williams
+2025-05-19 22:37:01,860 - INFO - Found post 2: The Proof of My Innocence - Jonathan Coe
+2025-05-19 22:37:01,870 - INFO - Found post 3: Don’t Make Me Laugh - Julia Raeside
+2025-05-19 22:37:01,881 - INFO - Found post 4: Rudy Rucker Audio Book Collection - Rudy Rucker
+2025-05-19 22:37:01,891 - INFO - Found post 5: Poor Artists: A Quest Into the Art World - Gabrielle de la Puente, Zarina Muhammad
+2025-05-19 22:37:01,900 - INFO - Found post 6: Memoirs of a Fox-Hunting Man: The Sherston Trilogy, Book 1 - Siegfried Sassoon
+2025-05-19 22:37:01,910 - INFO - Found post 7: Eidolon Master 4: Tamer of Animal Women - Eric Vall
+2025-05-19 22:37:01,920 - INFO - Found post 8: The Famine Plot: England’s Role in Ireland’s Greatest Tragedy - Tim Pat Coogan
+2025-05-19 22:37:01,930 - INFO - Found post 9: Starbreaker Volume 1 - Luke Chmilenko
+2025-05-19 22:37:02,261 - ERROR - PATCH::https://discord.com/api/v10/webhooks/1374198663022379101/aW50ZXJhY3Rpb246MTM3NDIxNTA0MDM3MDA4MTkwNjphM3JUY0s3d09uRWVNUTMyaGRTaElxbHZvcHdCcUsyd1pHeGY2OVQ1bzVyYmdXYzVOelNLTU52enNXVWxBc083WklxbHdaelZQdGxiRG1keU5pZ3k3WkN6Z1BWbUNVeDRNV2R1bEV5Nlh1ald4MThRbXJwY0pldVQzeUExaTRqcQ/messages/%40original: 400
+2025-05-19 22:37:02,263 - INFO - Command Called: get-book with event.ctx.args = ['He who fights with monster 11'] | event.ctx.kwargs = {'book': 'He who fights with monster 11'}
+2025-05-19 22:37:02,264 - ERROR - Ignoring exception in cmd `/get-book`: HTTPException: 400|Bad Request: components->0->components->0->options BASE_TYPE_BAD_LENGTH: Must be between 1 and 25 in length.
+2025-05-19 22:37:43,053 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:37:43,900 - INFO - Loading Commands...
+2025-05-19 22:37:44,320 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:37:44,320 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:37:44,510 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:37:44,725 - INFO - Launching Book Sailor!
+2025-05-19 22:37:57,367 - INFO - Navigating to Login Page.
+2025-05-19 22:37:59,816 - INFO - Login required. Attempting to login.
+2025-05-19 22:38:03,474 - INFO - Login successful
+2025-05-19 22:38:03,474 - INFO - Searching for: he who fights with monsters 11
+2025-05-19 22:38:03,474 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-19 22:38:07,149 - INFO - Search complete
+2025-05-19 22:38:07,149 - INFO - Fetching search result titles
+2025-05-19 22:38:07,155 - INFO - Found 9 posts
+2025-05-19 22:38:07,171 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 22:38:07,183 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 22:38:07,194 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 22:38:07,205 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-19 22:38:07,216 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-19 22:38:07,228 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 22:38:07,240 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 22:38:07,251 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 22:38:07,265 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-19 22:38:07,450 - ERROR - PATCH::https://discord.com/api/v10/webhooks/1374198663022379101/aW50ZXJhY3Rpb246MTM3NDIxNTMxMTY3MDM4MjU5MjpJWFcwdk10czBnYWV5bU5xcTZkNkZSYjRLdmdhVFQ1Um5qbkdYSlpMaGxsazNJZjRDSmNyU0JaSTlVWnd3QVBNTFlzTU4zVkozTndXbU1XdzhOMGlzRWVzczlrU3dxSU9rT1RWQlZCWHNKcDg1M0ZZd0VRbWRvMGVPb1pjbHpuQw/messages/%40original: 400
+2025-05-19 22:38:07,453 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-19 22:38:07,454 - ERROR - Ignoring exception in cmd `/get-book`: HTTPException: 400|Bad Request: components->0->components->0->options BASE_TYPE_BAD_LENGTH: Must be between 1 and 25 in length.
+2025-05-19 22:39:26,330 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:39:27,232 - INFO - Loading Commands...
+2025-05-19 22:39:27,669 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:39:27,669 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:39:28,016 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:39:28,221 - INFO - Launching Book Sailor!
+2025-05-19 22:39:44,081 - INFO - Navigating to Login Page.
+2025-05-19 22:39:46,459 - INFO - Login required. Attempting to login.
+2025-05-19 22:39:50,054 - INFO - Login successful
+2025-05-19 22:39:50,054 - INFO - Searching for: Eragon
+2025-05-19 22:39:50,054 - INFO - Using search URL: https://audiobookbay.lu/?s=Eragon
+2025-05-19 22:39:53,983 - INFO - Search complete
+2025-05-19 22:39:53,983 - INFO - Fetching search result titles
+2025-05-19 22:39:53,990 - INFO - Found 9 posts
+2025-05-19 22:39:54,008 - INFO - Found post 1: Cat on a Hot Tin Roof - Tennessee Williams
+2025-05-19 22:39:54,019 - INFO - Found post 2: The Proof of My Innocence - Jonathan Coe
+2025-05-19 22:39:54,029 - INFO - Found post 3: Don’t Make Me Laugh - Julia Raeside
+2025-05-19 22:39:54,041 - INFO - Found post 4: Rudy Rucker Audio Book Collection - Rudy Rucker
+2025-05-19 22:39:54,051 - INFO - Found post 5: Poor Artists: A Quest Into the Art World - Gabrielle de la Puente, Zarina Muhammad
+2025-05-19 22:39:54,062 - INFO - Found post 6: Memoirs of a Fox-Hunting Man: The Sherston Trilogy, Book 1 - Siegfried Sassoon
+2025-05-19 22:39:54,074 - INFO - Found post 7: Eidolon Master 4: Tamer of Animal Women - Eric Vall
+2025-05-19 22:39:54,084 - INFO - Found post 8: The Famine Plot: England’s Role in Ireland’s Greatest Tragedy - Tim Pat Coogan
+2025-05-19 22:39:54,094 - INFO - Found post 9: Starbreaker Volume 1 - Luke Chmilenko
+2025-05-19 22:39:54,272 - INFO - Command Called: get-book with event.ctx.args = ['Eragon'] | event.ctx.kwargs = {'book': 'Eragon'}
+2025-05-19 22:41:19,742 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:41:20,618 - INFO - Loading Commands...
+2025-05-19 22:41:20,960 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:41:20,960 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:41:21,173 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:41:21,415 - INFO - Launching Book Sailor!
+2025-05-19 22:41:28,389 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:41:29,258 - INFO - Loading Commands...
+2025-05-19 22:41:29,674 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:41:29,674 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:41:29,916 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:41:30,132 - INFO - Launching Book Sailor!
+2025-05-19 22:41:48,649 - INFO - Navigating to Login Page.
+2025-05-19 22:41:51,088 - INFO - Login required. Attempting to login.
+2025-05-19 22:41:53,715 - INFO - Login successful
+2025-05-19 22:41:53,715 - INFO - Searching for: he who fights with monsters 11
+2025-05-19 22:41:53,715 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-19 22:41:57,395 - INFO - Search complete
+2025-05-19 22:41:57,395 - INFO - Fetching search result titles
+2025-05-19 22:41:57,402 - INFO - Found 9 posts
+2025-05-19 22:41:57,418 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 22:41:57,429 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 22:41:57,438 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 22:41:57,449 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-19 22:41:57,459 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-19 22:41:57,468 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 22:41:57,478 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 22:41:57,488 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 22:41:57,498 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-19 22:41:57,680 - ERROR - PATCH::https://discord.com/api/v10/webhooks/1374198663022379101/aW50ZXJhY3Rpb246MTM3NDIxNjI4MTQ1MjA1NjYyODpwbk1jYWNpUWNlaTNvRlVEaG1WWThXTGJCM3FjQkJlWkZESUxpYlc5MWlDb2pzS0J4VjN3VnhFSmJaZDZtQnF2QkNaS2R5Z3RhZU5tR2RYU2xRSW1oRWduWmU4VkhsU0Q4Z0IzVUhDQTlCUGV5QVU3bUNVV2M4dzI5dWZzOEdjNw/messages/%40original: 400
+2025-05-19 22:41:57,683 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-19 22:41:57,684 - ERROR - Ignoring exception in cmd `/get-book`: HTTPException: 400|Bad Request: components->0->components->0->options BASE_TYPE_BAD_LENGTH: Must be between 1 and 25 in length.
+2025-05-19 22:43:14,287 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:43:15,152 - INFO - Loading Commands...
+2025-05-19 22:43:15,489 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:43:15,489 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:43:15,888 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:43:16,129 - INFO - Launching Book Sailor!
+2025-05-19 22:43:30,023 - INFO - Navigating to Login Page.
+2025-05-19 22:43:32,573 - INFO - Login required. Attempting to login.
+2025-05-19 22:43:35,200 - INFO - Login successful
+2025-05-19 22:43:35,200 - INFO - Searching for: acotar
+2025-05-19 22:43:35,200 - INFO - Using search URL: https://audiobookbay.lu/?s=acotar
+2025-05-19 22:43:39,107 - INFO - Search complete
+2025-05-19 22:43:39,107 - INFO - Fetching search result titles
+2025-05-19 22:43:39,114 - INFO - Found 3 posts
+2025-05-19 22:43:39,130 - INFO - Found post 1: A Deal with the Shadow King: Curse of the Fae, Book 1 - Anya J. Cosgrove
+2025-05-19 22:43:39,140 - INFO - Found post 2: Curse of the Wolf King - A Beauty and the Beast Retelling (Entangled with Fae) - Tessonja Odette
+2025-05-19 22:43:39,149 - INFO - Found post 3: Between Life and Death (Between Life and Death Series, Book 1) - Jaclyn Kot
+2025-05-19 22:43:39,283 - ERROR - PATCH::https://discord.com/api/v10/webhooks/1374198663022379101/aW50ZXJhY3Rpb246MTM3NDIxNjcwNzAyNzI0MzA0OTpGcG13RlNtMjZMNlc2cThrMjZLM3JGUU5LV2hucWJmZ1QwRjlYRUhzU1hZYnZ0R1MyakpGN2d3U0p4NndESDRET0x2MTZYNWhINlNxdVVHTVl2aGZ2Wmg3MVBZVzRVQjVUanhOQ3dFelRKNzVJRVFGemdoUnFMb1RXRlNjQllHdQ/messages/%40original: 400
+2025-05-19 22:43:39,286 - INFO - Command Called: get-book with event.ctx.args = ['acotar'] | event.ctx.kwargs = {'book': 'acotar'}
+2025-05-19 22:43:39,287 - ERROR - Ignoring exception in cmd `/get-book`: HTTPException: 400|Bad Request: components->0->components->0->options BASE_TYPE_BAD_LENGTH: Must be between 1 and 25 in length.
+2025-05-19 22:46:11,624 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:46:12,507 - INFO - Loading Commands...
+2025-05-19 22:46:12,863 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:46:12,863 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:46:13,076 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:46:13,379 - INFO - Launching Book Sailor!
+2025-05-19 22:46:25,863 - INFO - Navigating to Login Page.
+2025-05-19 22:46:28,390 - INFO - Login required. Attempting to login.
+2025-05-19 22:46:31,019 - INFO - Login successful
+2025-05-19 22:46:31,019 - INFO - Searching for: acotar
+2025-05-19 22:46:31,019 - INFO - Using search URL: https://audiobookbay.lu/?s=acotar
+2025-05-19 22:46:34,739 - INFO - Search complete
+2025-05-19 22:46:34,739 - INFO - Fetching search result titles
+2025-05-19 22:46:34,745 - INFO - Found 3 posts
+2025-05-19 22:46:34,761 - INFO - Found post 1: A Deal with the Shadow King: Curse of the Fae, Book 1 - Anya J. Cosgrove
+2025-05-19 22:46:34,772 - INFO - Found post 2: Curse of the Wolf King - A Beauty and the Beast Retelling (Entangled with Fae) - Tessonja Odette
+2025-05-19 22:46:34,781 - INFO - Found post 3: Between Life and Death (Between Life and Death Series, Book 1) - Jaclyn Kot
+2025-05-19 22:46:34,782 - INFO - Command Called: get-book with event.ctx.args = ['acotar'] | event.ctx.kwargs = {'book': 'acotar'}
+2025-05-19 22:46:50,956 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:46:51,806 - INFO - Loading Commands...
+2025-05-19 22:46:52,360 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:46:52,360 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:46:52,572 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:46:52,838 - INFO - Launching Book Sailor!
+2025-05-19 22:47:01,979 - INFO - Navigating to Login Page.
+2025-05-19 22:47:04,527 - INFO - Login required. Attempting to login.
+2025-05-19 22:47:07,157 - INFO - Login successful
+2025-05-19 22:47:07,157 - INFO - Searching for: acotar
+2025-05-19 22:47:07,157 - INFO - Using search URL: https://audiobookbay.lu/?s=acotar
+2025-05-19 22:47:10,925 - INFO - Search complete
+2025-05-19 22:47:10,925 - INFO - Fetching search result titles
+2025-05-19 22:47:10,932 - INFO - Found 3 posts
+2025-05-19 22:47:10,948 - INFO - Found post 1: A Deal with the Shadow King: Curse of the Fae, Book 1 - Anya J. Cosgrove
+2025-05-19 22:47:10,958 - INFO - Found post 2: Curse of the Wolf King - A Beauty and the Beast Retelling (Entangled with Fae) - Tessonja Odette
+2025-05-19 22:47:10,968 - INFO - Found post 3: Between Life and Death (Between Life and Death Series, Book 1) - Jaclyn Kot
+2025-05-19 22:47:11,097 - ERROR - PATCH::https://discord.com/api/v10/webhooks/1374198663022379101/aW50ZXJhY3Rpb246MTM3NDIxNzU5NTQ0Mzc0MDc5NTpuVFQ5c3lSc2hJcDFqVjBDSVczNGtBdlFtYjhmTDhncXh5Wm5pdzBGOHh4Wlh0QjJucHFBVWhMaWZ1eHBSVnRjcmFoTzdYUFRKV0NsVmtZWmUwZmdjS21iMjZTMWc5elpKUTlwVllpclVPeDFaTUVXNDR0eUh2aHpzRXFEY2tZMA/messages/%40original: 400
+2025-05-19 22:47:11,100 - INFO - Command Called: get-book with event.ctx.args = ['acotar'] | event.ctx.kwargs = {'book': 'acotar'}
+2025-05-19 22:47:11,101 - ERROR - Ignoring exception in cmd `/get-book`: HTTPException: 400|Bad Request: components->0->components->0->options BASE_TYPE_BAD_LENGTH: Must be between 1 and 25 in length.
+2025-05-19 22:49:49,747 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:49:50,638 - INFO - Loading Commands...
+2025-05-19 22:49:50,976 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:49:50,976 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:49:51,246 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:49:51,484 - INFO - Launching Book Sailor!
+2025-05-19 22:49:59,245 - INFO - Navigating to Login Page.
+2025-05-19 22:50:01,753 - INFO - Login required. Attempting to login.
+2025-05-19 22:50:05,365 - INFO - Login successful
+2025-05-19 22:50:05,365 - INFO - Searching for: acotar
+2025-05-19 22:50:05,365 - INFO - Using search URL: https://audiobookbay.lu/?s=acotar
+2025-05-19 22:50:09,198 - INFO - Search complete
+2025-05-19 22:50:09,198 - INFO - Fetching search result titles
+2025-05-19 22:50:09,205 - INFO - Found 3 posts
+2025-05-19 22:50:09,222 - INFO - Found post 1: A Deal with the Shadow King: Curse of the Fae, Book 1 - Anya J. Cosgrove
+2025-05-19 22:50:09,234 - INFO - Found post 2: Curse of the Wolf King - A Beauty and the Beast Retelling (Entangled with Fae) - Tessonja Odette
+2025-05-19 22:50:09,244 - INFO - Found post 3: Between Life and Death (Between Life and Death Series, Book 1) - Jaclyn Kot
+2025-05-19 22:50:09,494 - INFO - Command Called: get-book with event.ctx.args = ['acotar'] | event.ctx.kwargs = {'book': 'acotar'}
+2025-05-19 22:51:00,213 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 22:51:01,068 - INFO - Loading Commands...
+2025-05-19 22:51:01,458 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 22:51:01,458 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 22:51:01,658 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 22:51:02,007 - INFO - Launching Book Sailor!
+2025-05-19 22:51:09,796 - INFO - Navigating to Login Page.
+2025-05-19 22:51:11,442 - INFO - Login required. Attempting to login.
+2025-05-19 22:51:14,076 - INFO - Login successful
+2025-05-19 22:51:14,076 - INFO - Searching for: acotar
+2025-05-19 22:51:14,076 - INFO - Using search URL: https://audiobookbay.lu/?s=acotar
+2025-05-19 22:51:17,897 - INFO - Search complete
+2025-05-19 22:51:17,897 - INFO - Fetching search result titles
+2025-05-19 22:51:17,903 - INFO - Found 3 posts
+2025-05-19 22:51:17,920 - INFO - Found post 1: A Deal with the Shadow King: Curse of the Fae, Book 1 - Anya J. Cosgrove
+2025-05-19 22:51:17,930 - INFO - Found post 2: Curse of the Wolf King - A Beauty and the Beast Retelling (Entangled with Fae) - Tessonja Odette
+2025-05-19 22:51:17,939 - INFO - Found post 3: Between Life and Death (Between Life and Death Series, Book 1) - Jaclyn Kot
+2025-05-19 22:51:18,072 - ERROR - PATCH::https://discord.com/api/v10/webhooks/1374198663022379101/aW50ZXJhY3Rpb246MTM3NDIxODYzNDk1NTg1Mzk4NDo2ZUdkMFVBeTJMdURRWlN6Mkp4a3NyMUFZNERLYnhUS045QnpCeUhNMDRnVnJjc2J6VlZWVWxYZkYwR2xSY0lTUmVnelBSa1BWV2xYazdqMUJGbHhMQ0hTcjc4bnhXd1pyR20xZWNXVFV4QnZrbHpHR2VPVlJGaVlySlVFNEpCWA/messages/%40original: 400
+2025-05-19 22:51:18,075 - INFO - Command Called: get-book with event.ctx.args = ['acotar'] | event.ctx.kwargs = {'book': 'acotar'}
+2025-05-19 22:51:18,076 - ERROR - Ignoring exception in cmd `/get-book`: HTTPException: 400|Bad Request: components->0->components->0->options->1->value BASE_TYPE_BAD_LENGTH: Must be between 1 and 100 in length.
+components->0->components->0->options->1->value->2->value BASE_TYPE_BAD_LENGTH: Must be between 1 and 100 in length.
+2025-05-19 23:05:58,120 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 23:05:59,006 - INFO - Loading Commands...
+2025-05-19 23:06:00,504 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 23:06:00,504 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 23:06:00,784 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 23:06:01,079 - INFO - Launching Book Sailor!
+2025-05-19 23:21:58,794 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 23:21:59,804 - INFO - Loading Commands...
+2025-05-19 23:22:01,388 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 23:22:01,388 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 23:22:01,669 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 23:22:01,897 - INFO - Launching Book Sailor!
+2025-05-19 23:22:51,117 - INFO - Navigating to Login Page.
+2025-05-19 23:22:52,747 - INFO - Login required. Attempting to login.
+2025-05-19 23:22:55,374 - INFO - Login successful
+2025-05-19 23:22:55,374 - INFO - Searching for: He who fights with monsters 11
+2025-05-19 23:22:55,374 - INFO - Using search URL: https://audiobookbay.lu/?s=He+who+fights+with+monsters+11
+2025-05-19 23:22:59,168 - INFO - Search complete
+2025-05-19 23:22:59,168 - INFO - Fetching search result titles
+2025-05-19 23:22:59,174 - INFO - Found 9 posts
+2025-05-19 23:22:59,190 - INFO - Found post 1: Max Abaddon 7 Books - Justin Leslie
+2025-05-19 23:22:59,203 - INFO - Found post 2: The Seven Sisters: The Seven Sisters, Book 1 - Lucinda Riley
+2025-05-19 23:22:59,213 - INFO - Found post 3: Cat on a Hot Tin Roof - Tennessee Williams
+2025-05-19 23:22:59,222 - INFO - Found post 4: The Proof of My Innocence - Jonathan Coe
+2025-05-19 23:22:59,232 - INFO - Found post 5: Don’t Make Me Laugh - Julia Raeside
+2025-05-19 23:22:59,241 - INFO - Found post 6: Rudy Rucker Audio Book Collection - Rudy Rucker
+2025-05-19 23:22:59,251 - INFO - Found post 7: Poor Artists: A Quest Into the Art World - Gabrielle de la Puente, Zarina Muhammad
+2025-05-19 23:22:59,260 - INFO - Found post 8: Memoirs of a Fox-Hunting Man: The Sherston Trilogy, Book 1 - Siegfried Sassoon
+2025-05-19 23:22:59,270 - INFO - Found post 9: Eidolon Master 4: Tamer of Animal Women - Eric Vall
+2025-05-19 23:22:59,584 - INFO - Command Called: get-book with event.ctx.args = ['He who fights with monsters 11'] | event.ctx.kwargs = {'book': 'He who fights with monsters 11'}
+2025-05-19 23:25:49,247 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 23:25:50,122 - INFO - Loading Commands...
+2025-05-19 23:25:51,624 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 23:25:51,624 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 23:25:51,842 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 23:25:52,133 - INFO - Launching Book Sailor!
+2025-05-19 23:26:04,254 - INFO - Navigating to Login Page.
+2025-05-19 23:26:05,940 - INFO - Login required. Attempting to login.
+2025-05-19 23:26:08,567 - INFO - Login successful
+2025-05-19 23:26:08,567 - INFO - Searching for: he who fights with monsters 11
+2025-05-19 23:26:08,567 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-19 23:26:12,332 - INFO - Search complete
+2025-05-19 23:26:12,332 - INFO - Fetching search result titles
+2025-05-19 23:26:12,338 - INFO - Found 9 posts
+2025-05-19 23:26:12,354 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:26:12,364 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:26:12,374 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 23:26:12,384 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-19 23:26:12,394 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-19 23:26:12,403 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 23:26:12,413 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 23:26:12,423 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 23:26:12,432 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-19 23:26:12,642 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-19 23:26:26,715 - INFO - Book Selected: ['1']
+2025-05-19 23:26:53,512 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 23:26:54,345 - INFO - Loading Commands...
+2025-05-19 23:26:55,862 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 23:26:55,863 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 23:26:56,064 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 23:26:56,345 - INFO - Launching Book Sailor!
+2025-05-19 23:27:16,994 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 23:27:17,867 - INFO - Loading Commands...
+2025-05-19 23:27:19,370 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 23:27:19,370 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 23:27:19,632 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 23:27:19,930 - INFO - Launching Book Sailor!
+2025-05-19 23:27:29,468 - INFO - Navigating to Login Page.
+2025-05-19 23:27:31,211 - INFO - Login required. Attempting to login.
+2025-05-19 23:27:33,836 - INFO - Login successful
+2025-05-19 23:27:33,836 - INFO - Searching for: he who fights with monsters 11
+2025-05-19 23:27:33,836 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-19 23:27:37,508 - INFO - Search complete
+2025-05-19 23:27:37,508 - INFO - Fetching search result titles
+2025-05-19 23:27:37,514 - INFO - Found 9 posts
+2025-05-19 23:27:37,530 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:27:37,540 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:27:37,549 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 23:27:37,559 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-19 23:27:37,569 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-19 23:27:37,579 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 23:27:37,589 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 23:27:37,599 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 23:27:37,610 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-19 23:27:37,823 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-19 23:27:37,875 - ERROR - POST::https://discord.com/api/v10/interactions/1374227797190512733/aW50ZXJhY3Rpb246MTM3NDIyNzc5NzE5MDUxMjczMzozRzVmWjNzdkE1dXhsVEpIdWJOYWk5WDA3eE9PbzdwWWl1bVkxYnMybW1ZRm1xVGFHRDIwWGZRMlFLQzdQMEtreVIwTFdSQlRuZUdGZFExdkRBV2VHVmV5RlVRR1dsUHh0bWNGem1pU3RKQm5tbFV4Z0FyNFE4bm52bUxhV3BJUA/callback: 404
+2025-05-19 23:27:37,878 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-19 23:27:37,878 - ERROR - Ignoring exception in cmd `/get-book`: HTTPException: 404|Not Found || Unknown interaction
+2025-05-19 23:27:38,020 - ERROR - POST::https://discord.com/api/v10/interactions/1374227797190512733/aW50ZXJhY3Rpb246MTM3NDIyNzc5NzE5MDUxMjczMzozRzVmWjNzdkE1dXhsVEpIdWJOYWk5WDA3eE9PbzdwWWl1bVkxYnMybW1ZRm1xVGFHRDIwWGZRMlFLQzdQMEtreVIwTFdSQlRuZUdGZFExdkRBV2VHVmV5RlVRR1dsUHh0bWNGem1pU3RKQm5tbFV4Z0FyNFE4bm52bUxhV3BJUA/callback: 404
+2025-05-19 23:30:26,280 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 23:30:27,152 - INFO - Loading Commands...
+2025-05-19 23:30:29,286 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 23:30:29,286 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 23:30:29,535 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 23:30:29,807 - INFO - Launching Book Sailor!
+2025-05-19 23:30:44,261 - INFO - Navigating to Login Page.
+2025-05-19 23:30:46,014 - INFO - Login required. Attempting to login.
+2025-05-19 23:30:48,641 - INFO - Login successful
+2025-05-19 23:30:48,641 - INFO - Searching for: he who fights with monsters 11
+2025-05-19 23:30:48,641 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-19 23:30:52,380 - INFO - Search complete
+2025-05-19 23:30:52,380 - INFO - Fetching search result titles
+2025-05-19 23:30:52,387 - INFO - Found 9 posts
+2025-05-19 23:30:52,403 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:30:52,413 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:30:52,422 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 23:30:52,432 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-19 23:30:52,441 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-19 23:30:52,450 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 23:30:52,460 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 23:30:52,470 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 23:30:52,480 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-19 23:30:52,637 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-19 23:30:58,091 - INFO - Book Selected: ['1']
+2025-05-19 23:30:58,091 - INFO - {'id': 1, 'title': 'He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell', 'url': 'https://audiobookbay.lu/abss/he-who-fights-with-monsters-11-shirtaloon-travis-deverell-2/'}
+2025-05-19 23:30:58,092 - INFO - {'id': 2, 'title': 'He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell', 'url': 'https://audiobookbay.lu/abss/he-who-fights-with-monsters-11-shirtaloon-travis-deverell/'}
+2025-05-19 23:30:58,092 - INFO - {'id': 3, 'title': 'He Who Fights with Monsters, Books 01 - 10 - Shirtaloon', 'url': 'https://audiobookbay.lu/abss/heu-who-fights-with-monsters-shirtaloon/'}
+2025-05-19 23:30:58,092 - INFO - {'id': 4, 'title': 'Monsters In The Dark Bks 1 & 2 - Pepper Winters', 'url': 'https://audiobookbay.lu/abss/monstervs-in-the-dark-bks-1-2-pepper-winters/'}
+2025-05-19 23:30:58,092 - INFO - {'id': 5, 'title': 'Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish', 'url': 'https://audiobookbay.lu/abss/bbig-finish-productions-doctor-who-related-2022-complete-big-finish/'}
+2025-05-19 23:30:58,092 - INFO - {'id': 6, 'title': 'Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish', 'url': 'https://audiobookbay.lu/abss/doctogr-who-the-war-doctor-begins-he-who-fights-with-monsters-big-finish/'}
+2025-05-19 23:30:58,092 - INFO - {'id': 7, 'title': 'He Who Fights with Monsters 3 - Shirtaloon', 'url': 'https://audiobookbay.lu/abss/hek-who-fights-with-monsters-3-shirtaloon-2/'}
+2025-05-19 23:30:58,092 - INFO - {'id': 8, 'title': 'He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon', 'url': 'https://audiobookbay.lu/abss/mhe-who-fights-with-monsters-book-3-a-litrpg-adventure-shirtaloon/'}
+2025-05-19 23:30:58,092 - INFO - {'id': 9, 'title': 'Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins', 'url': 'https://audiobookbay.lu/abss/dsleeping-with-monsters-playing-with-monsters-2-amelia-hutchins/'}
+2025-05-19 23:35:48,191 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 23:35:49,122 - INFO - Loading Commands...
+2025-05-19 23:35:50,629 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 23:35:50,629 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 23:35:51,018 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 23:35:51,247 - INFO - Launching Book Sailor!
+2025-05-19 23:36:00,882 - INFO - Navigating to Login Page.
+2025-05-19 23:36:02,675 - INFO - Login required. Attempting to login.
+2025-05-19 23:36:06,245 - INFO - Login successful
+2025-05-19 23:36:06,245 - INFO - Searching for: he who fights with monsters 11
+2025-05-19 23:36:06,245 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-19 23:36:09,919 - INFO - Search complete
+2025-05-19 23:36:09,919 - INFO - Fetching search result titles
+2025-05-19 23:36:09,926 - INFO - Found 9 posts
+2025-05-19 23:36:09,943 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:36:09,953 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:36:09,963 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 23:36:09,973 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-19 23:36:09,983 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-19 23:36:09,992 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 23:36:10,002 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 23:36:10,012 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 23:36:10,022 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-19 23:36:10,253 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-19 23:36:13,975 - INFO - Book Selected: ['1']
+2025-05-19 23:36:41,779 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 23:36:42,619 - INFO - Loading Commands...
+2025-05-19 23:36:44,139 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 23:36:44,139 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 23:36:44,340 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 23:36:44,677 - INFO - Launching Book Sailor!
+2025-05-19 23:36:52,594 - INFO - Navigating to Login Page.
+2025-05-19 23:36:54,319 - INFO - Login required. Attempting to login.
+2025-05-19 23:36:57,957 - INFO - Login successful
+2025-05-19 23:36:57,957 - INFO - Searching for: he who fights with monsters 11
+2025-05-19 23:36:57,957 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-19 23:37:01,738 - INFO - Search complete
+2025-05-19 23:37:01,738 - INFO - Fetching search result titles
+2025-05-19 23:37:01,744 - INFO - Found 9 posts
+2025-05-19 23:37:01,761 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:37:01,771 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:37:01,782 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 23:37:01,791 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-19 23:37:01,801 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-19 23:37:01,811 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 23:37:01,822 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 23:37:01,831 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 23:37:01,841 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-19 23:37:02,030 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-19 23:37:05,739 - INFO - Book Selected: ['1']
+2025-05-19 23:37:30,013 - INFO - Book Selected: ['1']
+2025-05-19 23:37:34,832 - INFO - Book Selected: ['2']
+2025-05-19 23:37:37,508 - INFO - Book Selected: ['4']
+2025-05-19 23:37:40,395 - INFO - Book Selected: ['8']
+2025-05-19 23:37:54,006 - INFO - Book Selected: ['1']
+2025-05-19 23:43:13,964 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 23:43:14,846 - INFO - Loading Commands...
+2025-05-19 23:43:16,356 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 23:43:16,356 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 23:43:16,616 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 23:43:16,818 - INFO - Launching Book Sailor!
+2025-05-19 23:43:31,891 - INFO - Navigating to Login Page.
+2025-05-19 23:43:33,485 - INFO - Login required. Attempting to login.
+2025-05-19 23:43:36,113 - INFO - Login successful
+2025-05-19 23:43:36,113 - INFO - Searching for: he who fights with monsters 11
+2025-05-19 23:43:36,113 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-19 23:43:39,779 - INFO - Search complete
+2025-05-19 23:43:39,779 - INFO - Fetching search result titles
+2025-05-19 23:43:39,786 - INFO - Found 9 posts
+2025-05-19 23:43:39,802 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:43:39,812 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:43:39,822 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 23:43:39,832 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-19 23:43:39,842 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-19 23:43:39,852 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 23:43:39,862 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 23:43:39,871 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 23:43:39,881 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-19 23:43:40,038 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-19 23:43:45,789 - INFO - Book Selected: ['1']
+2025-05-19 23:52:13,554 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 23:52:14,452 - INFO - Loading Commands...
+2025-05-19 23:52:15,920 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 23:52:15,921 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 23:52:16,213 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 23:52:16,451 - INFO - Launching Book Sailor!
+2025-05-19 23:52:44,501 - INFO - Navigating to Login Page.
+2025-05-19 23:52:46,174 - INFO - Login required. Attempting to login.
+2025-05-19 23:52:49,888 - INFO - Login successful
+2025-05-19 23:52:49,888 - INFO - Searching for: he who fights with monsters 11
+2025-05-19 23:52:49,888 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-19 23:52:53,558 - INFO - Search complete
+2025-05-19 23:52:53,558 - INFO - Fetching search result titles
+2025-05-19 23:52:53,564 - INFO - Found 9 posts
+2025-05-19 23:52:53,580 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:52:53,590 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:52:53,600 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 23:52:53,610 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-19 23:52:53,619 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-19 23:52:53,629 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 23:52:53,639 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 23:52:53,648 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 23:52:53,658 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-19 23:52:54,080 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-19 23:52:57,103 - INFO - Book Selected: ['1']
+2025-05-19 23:52:57,805 - INFO - Processing download for: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:52:58,357 - INFO - Processing download page
+2025-05-19 23:52:58,372 - INFO - Clicking torrent download button
+2025-05-19 23:53:08,703 - INFO - No login required
+2025-05-19 23:58:39,114 - INFO - Shard ID 0 | Stopping Shard
+2025-05-19 23:58:39,979 - INFO - Loading Commands...
+2025-05-19 23:58:41,589 - INFO - Shard ID 0 | Starting Shard
+2025-05-19 23:58:41,589 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-19 23:58:42,105 - INFO - Shard ID 0 | Gateway connection established
+2025-05-19 23:58:42,297 - INFO - Launching Book Sailor!
+2025-05-19 23:58:57,169 - INFO - Navigating to Login Page.
+2025-05-19 23:58:58,786 - INFO - Login required. Attempting to login.
+2025-05-19 23:59:01,413 - INFO - Login successful
+2025-05-19 23:59:01,413 - INFO - Searching for: he who fights with monsters 11
+2025-05-19 23:59:01,413 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-19 23:59:05,070 - INFO - Search complete
+2025-05-19 23:59:05,070 - INFO - Fetching search result titles
+2025-05-19 23:59:05,076 - INFO - Found 9 posts
+2025-05-19 23:59:05,093 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:59:05,103 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:59:05,113 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-19 23:59:05,123 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-19 23:59:05,134 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-19 23:59:05,144 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-19 23:59:05,154 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-19 23:59:05,164 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-19 23:59:05,174 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-19 23:59:05,536 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-19 23:59:16,551 - INFO - Book Selected: ['1']
+2025-05-19 23:59:16,922 - INFO - Processing download for: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-19 23:59:17,483 - INFO - Processing download page
+2025-05-19 23:59:17,498 - INFO - Clicking torrent download button
+2025-05-19 23:59:27,855 - INFO - No login required
+2025-05-20 00:02:54,007 - INFO - Shard ID 0 | Stopping Shard
+2025-05-20 00:02:54,899 - INFO - Loading Commands...
+2025-05-20 00:02:56,321 - INFO - Shard ID 0 | Starting Shard
+2025-05-20 00:02:56,321 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-20 00:02:56,611 - INFO - Shard ID 0 | Gateway connection established
+2025-05-20 00:02:56,861 - INFO - Launching Book Sailor!
+2025-05-20 00:03:06,921 - INFO - Shard ID 0 | Stopping Shard
+2025-05-20 00:03:11,468 - INFO - Loading Commands...
+2025-05-20 00:03:15,004 - INFO - Shard ID 0 | Starting Shard
+2025-05-20 00:03:15,004 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-20 00:03:15,223 - INFO - Shard ID 0 | Gateway connection established
+2025-05-20 00:03:15,472 - INFO - Launching Book Sailor!
+2025-05-20 00:03:31,211 - INFO - Navigating to Login Page.
+2025-05-20 00:03:32,829 - INFO - Login required. Attempting to login.
+2025-05-20 00:03:36,521 - INFO - Login successful
+2025-05-20 00:03:36,521 - INFO - Searching for: he who fights with monsters 11
+2025-05-20 00:03:36,521 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-20 00:03:40,282 - INFO - Search complete
+2025-05-20 00:03:40,282 - INFO - Fetching search result titles
+2025-05-20 00:03:40,288 - INFO - Found 9 posts
+2025-05-20 00:03:40,304 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-20 00:03:40,315 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-20 00:03:40,325 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-20 00:03:40,335 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-20 00:03:40,344 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-20 00:03:40,354 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-20 00:03:40,364 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-20 00:03:40,374 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-20 00:03:40,383 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-20 00:03:40,524 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-20 00:03:44,433 - INFO - Book Selected: ['1']
+2025-05-20 00:03:44,814 - INFO - Processing download for: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-20 00:03:45,367 - INFO - Processing download page
+2025-05-20 00:03:45,382 - INFO - Clicking torrent download button
+2025-05-20 00:03:55,737 - INFO - No login required
+2025-05-20 00:11:04,831 - INFO - Shard ID 0 | Stopping Shard
+2025-05-20 00:14:48,815 - INFO - Loading Commands...
+2025-05-20 00:14:50,394 - INFO - Shard ID 0 | Starting Shard
+2025-05-20 00:14:50,395 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-20 00:14:50,622 - INFO - Shard ID 0 | Gateway connection established
+2025-05-20 00:14:50,876 - INFO - Launching Book Sailor!
+2025-05-20 00:15:03,418 - INFO - Navigating to Login Page.
+2025-05-20 00:15:05,225 - INFO - Login required. Attempting to login.
+2025-05-20 00:15:08,894 - INFO - Login successful
+2025-05-20 00:15:08,894 - INFO - Searching for: he who fights with monsters 11
+2025-05-20 00:15:08,894 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-20 00:15:12,565 - INFO - Search complete
+2025-05-20 00:15:12,565 - INFO - Fetching search result titles
+2025-05-20 00:15:12,572 - INFO - Found 9 posts
+2025-05-20 00:15:12,588 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-20 00:15:12,598 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-20 00:15:12,607 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-20 00:15:12,617 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-20 00:15:12,626 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-20 00:15:12,636 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-20 00:15:12,645 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-20 00:15:12,654 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-20 00:15:12,664 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-20 00:15:12,930 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-20 00:15:17,816 - INFO - Book Selected: ['1']
+2025-05-20 00:15:18,381 - INFO - Processing download for: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-20 00:15:18,964 - INFO - Processing download page
+2025-05-20 00:15:18,981 - INFO - Found torrent download URL: https://audiobookbay.lu/downld0?downfs=28He_Who_Fights_with_Monsters_.mb
+2025-05-20 00:15:19,516 - ERROR - Error on download page: 404 Client Error: Not Found for url: https://audiobookbay.lu/downld0?downfs=28He_Who_Fights_with_Monsters_.mb
+2025-05-20 00:15:19,518 - ERROR - Ignoring exception in Component():
+Traceback (most recent call last):
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\interactions\client\client.py", line 632, in _async_wrap
+    await _coro(_event, *_args, **_kwargs)
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\interactions\models\internal\callback.py", line 31, in __call__
+    return await self.callback(self._binding, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\default_commands.py", line 87, in on_component
+    self.rpa.process_post_by_url(title=title, url=url)
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\rpa.py", line 172, in process_post_by_url
+    self.process_download_page()
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\rpa.py", line 192, in process_download_page
+    self.download_with_requests(download_url, save_dir=self.download_dir)
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\rpa.py", line 214, in download_with_requests
+    response.raise_for_status()
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://audiobookbay.lu/downld0?downfs=28He_Who_Fights_with_Monsters_.mb
+
+2025-05-20 00:20:26,828 - INFO - Shard ID 0 | Stopping Shard
+2025-05-20 00:20:27,941 - INFO - Loading Commands...
+2025-05-20 00:20:29,432 - INFO - Shard ID 0 | Starting Shard
+2025-05-20 00:20:29,432 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-20 00:20:29,712 - INFO - Shard ID 0 | Gateway connection established
+2025-05-20 00:20:29,968 - INFO - Launching Book Sailor!
+2025-05-20 00:20:41,885 - INFO - Navigating to Login Page.
+2025-05-20 00:20:43,516 - INFO - Login required. Attempting to login.
+2025-05-20 00:20:46,142 - INFO - Login successful
+2025-05-20 00:20:46,142 - INFO - Searching for: he who fights with monsters 11
+2025-05-20 00:20:46,142 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+11
+2025-05-20 00:20:49,894 - INFO - Search complete
+2025-05-20 00:20:49,894 - INFO - Fetching search result titles
+2025-05-20 00:20:49,900 - INFO - Found 9 posts
+2025-05-20 00:20:49,916 - INFO - Found post 1: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-20 00:20:49,927 - INFO - Found post 2: He Who Fights with Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-20 00:20:49,937 - INFO - Found post 3: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-20 00:20:49,946 - INFO - Found post 4: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-20 00:20:49,955 - INFO - Found post 5: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-20 00:20:49,965 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-20 00:20:49,975 - INFO - Found post 7: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-20 00:20:49,984 - INFO - Found post 8: He Who Fights with Monsters book 3 A LitRPG Adventure - Shirtaloon
+2025-05-20 00:20:49,994 - INFO - Found post 9: Sleeping with Monsters (Playing With Monsters #2) - Amelia Hutchins
+2025-05-20 00:20:50,498 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 11'] | event.ctx.kwargs = {'book': 'he who fights with monsters 11'}
+2025-05-20 00:20:53,198 - INFO - Book Selected: ['1']
+2025-05-20 00:20:53,552 - INFO - Processing download for: He Who Fights With Monsters 11 - Shirtaloon, Travis Deverell
+2025-05-20 00:20:54,349 - INFO - Processing download page
+2025-05-20 00:20:54,367 - INFO - Found torrent download URL: https://audiobookbay.lu/downld0?downfs=28He_Who_Fights_with_Monsters_.mb
+2025-05-20 00:20:54,906 - ERROR - Error on download page: 404 Client Error: Not Found for url: https://audiobookbay.lu/downld0?downfs=28He_Who_Fights_with_Monsters_.mb
+2025-05-20 00:20:54,907 - ERROR - Ignoring exception in Component():
+Traceback (most recent call last):
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\interactions\client\client.py", line 632, in _async_wrap
+    await _coro(_event, *_args, **_kwargs)
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\interactions\models\internal\callback.py", line 31, in __call__
+    return await self.callback(self._binding, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\default_commands.py", line 87, in on_component
+    self.rpa.process_post_by_url(title=title, url=url)
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\rpa.py", line 178, in process_post_by_url
+    self.process_download_page()
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\rpa.py", line 201, in process_download_page
+    self.download_with_requests(session, download_url, save_dir=self.download_dir)
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\rpa.py", line 223, in download_with_requests
+    response.raise_for_status()
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://audiobookbay.lu/downld0?downfs=28He_Who_Fights_with_Monsters_.mb
+
+2025-05-20 00:24:24,038 - INFO - Shard ID 0 | Stopping Shard
+2025-05-20 09:30:42,499 - INFO - Loading Commands...
+2025-05-20 09:30:44,547 - INFO - Shard ID 0 | Starting Shard
+2025-05-20 09:30:44,547 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-20 09:30:45,015 - INFO - Shard ID 0 | Gateway connection established
+2025-05-20 09:30:45,256 - INFO - Launching Book Sailor!
+2025-05-20 09:31:01,440 - INFO - Navigating to Login Page.
+2025-05-20 09:31:03,132 - INFO - Login required. Attempting to login.
+2025-05-20 09:31:05,762 - INFO - Login successful
+2025-05-20 09:31:05,762 - INFO - Searching for: he who fights with monsters 12
+2025-05-20 09:31:05,762 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+12
+2025-05-20 09:31:09,621 - INFO - Search complete
+2025-05-20 09:31:09,621 - INFO - Fetching search result titles
+2025-05-20 09:31:09,628 - INFO - Found 9 posts
+2025-05-20 09:31:09,646 - INFO - Found post 1: He Who Fights with Monsters 12 - Shirlatoon, Travis Devrell
+2025-05-20 09:31:09,656 - INFO - Found post 2: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-20 09:31:09,666 - INFO - Found post 3: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-20 09:31:09,676 - INFO - Found post 4: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-20 09:31:09,686 - INFO - Found post 5: Big Finish - Doctor Who - December 2022 - Big Finish
+2025-05-20 09:31:09,696 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-20 09:31:09,706 - INFO - Found post 7: He Who Fights With Monsters 8 - Shirtaloon, Travis Deverell
+2025-05-20 09:31:09,714 - INFO - Found post 8: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-20 09:31:09,725 - INFO - Found post 9: The Survivalist Series (Books 1-12) - Arthur T. Bradley
+2025-05-20 09:31:10,880 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 12'] | event.ctx.kwargs = {'book': 'he who fights with monsters 12'}
+2025-05-20 09:31:15,704 - INFO - Book Selected: ['1']
+2025-05-20 09:31:16,167 - INFO - Processing download for: He Who Fights with Monsters 12 - Shirlatoon, Travis Devrell
+2025-05-20 09:31:16,715 - INFO - Processing download page
+2025-05-20 09:31:16,733 - INFO - Found torrent download URL: https://audiobookbay.lu/downld0?downfs=37He_Who_Fights_with_Monsters_
+2025-05-20 09:31:16,733 - INFO - Clicking torrent download button
+2025-05-20 09:31:27,151 - INFO - No login required
+2025-05-20 09:31:27,151 - INFO - Download initiated, waiting for file to appear...
+2025-05-20 09:31:57,164 - WARNING - No download appears to have started after waiting
+2025-05-20 09:31:57,166 - ERROR - Shard ID 0 | Traceback (most recent call last):
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\interactions\api\gateway\state.py", line 110, in _ws_connect
+    await self.gateway.run()
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\interactions\api\gateway\gateway.py", line 171, in run
+    await self.dispatch_opcode(data, op)
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\interactions\api\gateway\gateway.py", line 177, in dispatch_opcode
+    return await self.send_heartbeat()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\interactions\api\gateway\gateway.py", line 303, in send_heartbeat
+    await self.send_json({"op": OPCODE.HEARTBEAT, "d": self.sequence}, bypass=True)
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\interactions\api\gateway\websocket.py", line 165, in send_json
+    await self.send(serialized, bypass)
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\interactions\api\gateway\websocket.py", line 153, in send
+    await self.ws.send_str(data)
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\aiohttp\client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+  File "C:\Users\kevin\PycharmProjects\Audiobook Downloader\.venv\Lib\site-packages\aiohttp\_websocket\writer.py", line 125, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+
+2025-05-20 09:31:57,166 - INFO - Shard ID 0 | Stopping Shard
+2025-05-20 09:33:41,918 - INFO - Loading Commands...
+2025-05-20 09:33:43,491 - INFO - Shard ID 0 | Starting Shard
+2025-05-20 09:33:43,491 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-20 09:33:43,658 - INFO - Shard ID 0 | Gateway connection established
+2025-05-20 09:33:44,114 - INFO - Launching Book Sailor!
+2025-05-20 09:34:12,574 - INFO - Navigating to Login Page.
+2025-05-20 09:34:14,177 - INFO - Login required. Attempting to login.
+2025-05-20 09:34:16,804 - INFO - Login successful
+2025-05-20 09:34:16,804 - INFO - Searching for: he who fights with monsters 12
+2025-05-20 09:34:16,804 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+12
+2025-05-20 09:34:20,458 - INFO - Search complete
+2025-05-20 09:34:20,458 - INFO - Fetching search result titles
+2025-05-20 09:34:20,465 - INFO - Found 9 posts
+2025-05-20 09:34:20,481 - INFO - Found post 1: He Who Fights with Monsters 12 - Shirlatoon, Travis Devrell
+2025-05-20 09:34:20,492 - INFO - Found post 2: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-20 09:34:20,502 - INFO - Found post 3: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-20 09:34:20,512 - INFO - Found post 4: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-20 09:34:20,522 - INFO - Found post 5: Big Finish - Doctor Who - December 2022 - Big Finish
+2025-05-20 09:34:20,532 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-20 09:34:20,542 - INFO - Found post 7: He Who Fights With Monsters 8 - Shirtaloon, Travis Deverell
+2025-05-20 09:34:20,553 - INFO - Found post 8: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-20 09:34:20,562 - INFO - Found post 9: The Survivalist Series (Books 1-12) - Arthur T. Bradley
+2025-05-20 09:34:20,746 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 12'] | event.ctx.kwargs = {'book': 'he who fights with monsters 12'}
+2025-05-20 09:34:38,022 - INFO - Book Selected: ['1']
+2025-05-20 09:34:38,425 - INFO - Processing download for: He Who Fights with Monsters 12 - Shirlatoon, Travis Devrell
+2025-05-20 09:34:38,977 - INFO - Processing download page
+2025-05-20 09:34:38,995 - INFO - Found torrent download URL: https://audiobookbay.lu/downld0?downfs=37He_Who_Fights_with_Monsters_
+2025-05-20 09:34:38,996 - INFO - Clicking torrent download button
+2025-05-20 09:34:49,402 - INFO - No login required
+2025-05-20 09:34:49,402 - INFO - Download initiated, waiting for file to appear...
+2025-05-20 09:35:19,416 - WARNING - No download appears to have started after waiting
+2025-05-20 09:38:19,626 - INFO - Shard ID 0 | Stopping Shard
+2025-05-20 09:38:20,527 - INFO - Loading Commands...
+2025-05-20 09:38:20,529 - INFO - Setting download directory to: /audiobook_downloads
+2025-05-20 09:38:22,013 - INFO - Shard ID 0 | Starting Shard
+2025-05-20 09:38:22,015 - INFO - Shard ID 0 | Shard is attempting to connect to gateway...
+2025-05-20 09:38:22,305 - INFO - Shard ID 0 | Gateway connection established
+2025-05-20 09:38:22,586 - INFO - Launching Book Sailor!
+2025-05-20 09:38:33,925 - INFO - Navigating to Login Page.
+2025-05-20 09:38:35,471 - INFO - Login required. Attempting to login.
+2025-05-20 09:38:38,098 - INFO - Login successful
+2025-05-20 09:38:38,098 - INFO - Searching for: he who fights with monsters 12
+2025-05-20 09:38:38,098 - INFO - Using search URL: https://audiobookbay.lu/?s=he+who+fights+with+monsters+12
+2025-05-20 09:38:41,742 - INFO - Search complete
+2025-05-20 09:38:41,742 - INFO - Fetching search result titles
+2025-05-20 09:38:41,748 - INFO - Found 9 posts
+2025-05-20 09:38:41,766 - INFO - Found post 1: He Who Fights with Monsters 12 - Shirlatoon, Travis Devrell
+2025-05-20 09:38:41,777 - INFO - Found post 2: He Who Fights with Monsters, Books 01 - 10 - Shirtaloon
+2025-05-20 09:38:41,786 - INFO - Found post 3: Monsters In The Dark Bks 1 & 2 - Pepper Winters
+2025-05-20 09:38:41,796 - INFO - Found post 4: Big Finish Productions - Doctor Who & Related (2022 Complete) - Big Finish
+2025-05-20 09:38:41,806 - INFO - Found post 5: Big Finish - Doctor Who - December 2022 - Big Finish
+2025-05-20 09:38:41,815 - INFO - Found post 6: Doctor Who: The War Doctor Begins: He Who Fights With Monsters - Big Finish
+2025-05-20 09:38:41,825 - INFO - Found post 7: He Who Fights With Monsters 8 - Shirtaloon, Travis Deverell
+2025-05-20 09:38:41,836 - INFO - Found post 8: He Who Fights with Monsters 3 - Shirtaloon
+2025-05-20 09:38:41,845 - INFO - Found post 9: The Survivalist Series (Books 1-12) - Arthur T. Bradley
+2025-05-20 09:38:42,156 - INFO - Command Called: get-book with event.ctx.args = ['he who fights with monsters 12'] | event.ctx.kwargs = {'book': 'he who fights with monsters 12'}
+2025-05-20 09:38:47,445 - INFO - Book Selected: ['1']
+2025-05-20 09:38:48,081 - INFO - Processing download for: He Who Fights with Monsters 12 - Shirlatoon, Travis Devrell
+2025-05-20 09:38:48,635 - INFO - Processing download page
+2025-05-20 09:38:48,653 - INFO - Found torrent download URL: https://audiobookbay.lu/downld0?downfs=37He_Who_Fights_with_Monsters_
+2025-05-20 09:38:48,653 - INFO - Clicking torrent download button
+2025-05-20 09:38:59,052 - INFO - No login required
+2025-05-20 09:38:59,052 - INFO - Download initiated, waiting for file to appear...
+2025-05-20 09:39:29,067 - WARNING - No download appears to have started after waiting
+2025-05-20 09:48:18,000 - INFO - Shard ID 0 | Stopping Shard
