@@ -120,7 +120,7 @@ class BookSearch(Extension):
                                             f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}. Current status: {torrent.status})")
                                         logger.info("Transmission sequence complete!")
                                     else:
-                                        logger.error("Removing file to avoid duplicates.")
+                                        logger.warning("Removing file to avoid duplicates.")
                                         os.remove(entry.path)
                                         # Attempt to delete original
                                         await ctx.delete()
