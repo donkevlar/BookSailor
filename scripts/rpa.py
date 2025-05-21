@@ -77,6 +77,13 @@ class WebsiteNavigationRPA:
         self.driver = webdriver.Chrome(options=chrome_options)
         self.wait = WebDriverWait(self.driver, 10)  # 10 seconds timeout for wait conditions
 
+    def quit_current_session(self):
+        try:
+            logger.info("Quitting session.")
+            self.driver.quit()
+        except Exception as e:
+            logger.error(f'Error with quitting current session. {e}')
+
     def handle_login(self):
         """Handle login if required"""
         try:
@@ -137,6 +144,12 @@ class WebsiteNavigationRPA:
         logger.info(f"Searching for: {query}")
 
         try:
+            # Try with search function filter
+            # Find the search input and type a query
+            search_input = self.driver.find_element(By.NAME, "s")
+            search_input.clear()
+            search_input.send_keys(query)
+
             # For AudioBookBay.lu, use direct URL format for search
             # Format: https://audiobookbay.lu/?s=your+search+terms
             search_url = f"{self.base_url}/?s={query.replace(' ', '+')}"
@@ -145,16 +158,21 @@ class WebsiteNavigationRPA:
             # Navigate directly to search URL
             timeout = 5  # seconds
             start = time.time()
+            valid_page = False
 
             while time.time() - start < timeout:
-                self.driver.get(search_url)
+                # Click on search button
+                search_button = self.driver.find_element(By.CLASS_NAME, "searchSubmit")
+                search_button.click()
+                # self.driver.get(search_url)
                 time.sleep(0.25)
-                if self.driver.current_url == search_url:
+                if self.driver.current_url == search_url or search_url in self.driver.current_url:
                     # Wait for search results to load
                     logger.info("Search complete")
+                    valid_page = True
                     break
 
-            if self.driver.current_url != search_url:
+            if not valid_page:
                 raise Exception('Search page could not be loaded!')
 
         except Exception as e:

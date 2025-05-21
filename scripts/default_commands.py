@@ -14,13 +14,14 @@ logger = logging.getLogger(__name__)
 
 class BookSearch(Extension):
     def __init__(self, bot):
-        self.rpa = r.WebsiteNavigationRPA(username=os.getenv('USERNAME'), password=os.getenv('PASSWORD'),
-                                          base_url="https://audiobookbay.lu", download_dir=os.getenv('DOWNLOAD_DIR'))
+        self.rpa = None
         self.book_result = []
         self.latest_torrent = None
 
     # Functions --------------
     async def book_search_rpa(self, query: str):
+        self.rpa = r.WebsiteNavigationRPA(username=os.getenv('USERNAME'), password=os.getenv('PASSWORD'),
+                                          base_url="https://audiobookbay.lu", download_dir=os.getenv('DOWNLOAD_DIR'))
         self.rpa.nav_login_page()
         self.rpa.handle_login()
         results = self.rpa.get_search_result_titles(query)
@@ -102,57 +103,80 @@ class BookSearch(Extension):
                             outcome = self.rpa.process_post_by_url(title=title, url=url)
                             # Check if using a magnet link
                             if self.rpa.magnet_link or outcome:
-                                c = TransmissionClient()
-                                torrent = c.load_torrent(file_path=self.rpa.magnet_link)
-                                if torrent:
-                                    self.latest_torrent = torrent
-                                    await ctx.send(content=f"Download has begun for **{title}**")
-                                    await self.bot.owner.send(
-                                        f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}.)")
-                                    logger.info("Transmission sequence complete!")
-                                else:
-                                    logger.error("Could not download torrent using magnet link.")
-                                    await ctx.edit_origin()
-                                    await ctx.delete()
+                                # Quit chrome session
+                                self.rpa.quit_current_session()
 
-                                    await ctx.send(
-                                        f'An error occured while attempting to transfer the book **{title}** to the server, please reach out to the server owner for more details.')
-                                    return
+                                try:
+                                    # Start transmission sequence
+                                    c = TransmissionClient()
+                                    torrent = c.load_torrent(file_path=self.rpa.magnet_link)
+                                    if torrent:
+                                        self.latest_torrent = torrent
+                                        await ctx.send(content=f"Download has begun for **{title}**")
+                                        await self.bot.owner.send(
+                                            f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}.)")
+                                        logger.info("Transmission sequence complete!")
+                                    else:
+                                        logger.error("Could not download torrent using magnet link.")
+                                        await ctx.edit_origin()
+                                        await ctx.delete()
+
+                                        await ctx.send(
+                                            f'An error occured while attempting to transfer the book **{title}** to the server, please reach out to the server owner for more details.')
+                                        return
+
+                                except Exception as e:
+                                    logger.error(f"Could not download Torrent! {e}")
 
                             # Check if file is downloaded
                             elif self.rpa.files_downloaded:
                                 logger.info("Attempting to transfer torrent to transmission...")
                                 dir_items = os.scandir(self.rpa.download_dir)
                                 for entry in dir_items:
-                                    c = TransmissionClient()
-                                    torrent = c.load_torrent(file_path=entry.path)
-                                    if torrent:
-                                        self.latest_torrent = torrent
-                                        # Give the system a moment to upload the file
-                                        await asyncio.sleep(0.5)
-                                        logger.info("File uploaded to transmission, removing from directory!")
-                                        os.remove(entry.path)
-                                        # Send owner a message
-                                        await ctx.send(content=f"Download has begun for **{title}**")
-                                        await self.bot.owner.send(
-                                            f"User **{ctx.user.display_name}** has started the download for {title}. Please visit {c.host}:{c.port}.")
-                                        logger.info("Transmission sequence complete!")
+                                    # Quit chrome session
+                                    self.rpa.quit_current_session()
+                                    try:
+                                        # Start transmission sequence
+                                        c = TransmissionClient()
+                                        torrent = c.load_torrent(file_path=entry.path)
+                                        if torrent:
+                                            self.latest_torrent = torrent
+                                            # Give the system a moment to upload the file
+                                            await asyncio.sleep(0.5)
+                                            logger.info("File uploaded to transmission, removing from directory!")
+                                            os.remove(entry.path)
+                                            # Send owner a message
+                                            await ctx.send(content=f"Download has begun for **{title}**")
+                                            await self.bot.owner.send(
+                                                f"User **{ctx.user.display_name}** has started the download for {title}. Please visit {c.host}:{c.port}.")
+                                            logger.info("Transmission sequence complete!")
 
-                                    else:
-                                        logger.warning("Removing file to avoid duplicates.")
-                                        os.remove(entry.path)
-                                        # Attempt to delete original
-                                        await ctx.edit_origin()
-                                        await ctx.delete()
+                                        else:
+                                            logger.warning("Removing file to avoid duplicates.")
+                                            os.remove(entry.path)
+                                            # Attempt to delete original
+                                            await ctx.edit_origin()
+                                            await ctx.delete()
 
-                                        await ctx.send(f'An error occured while attempting to transfer the book **{title}** to the server, please reach out to the server owner for more details.')
-                                        return
+                                            await ctx.send(f'An error occured while attempting to transfer the book **{title}** to the server, please reach out to the server owner for more details.')
+                                            return
+                                    except Exception as e:
+                                        logger.error(f"Could not download torrent. {e}")
 
                             else:
                                 await ctx.send(
                                     content=f"Could not download: **{title}**. Please visit logs for more information.")
+                                # Quit chrome session
+                                self.rpa.quit_current_session()
 
             case "cancel_button":
                 await ctx.edit_origin()
                 await ctx.delete()
                 self.book_result = []
+
+                try:
+                    # Quit chrome session
+                    self.rpa.quit_current_session()
+
+                except Exception as e:
+                    logger.warning(f"Issue with closing chrome session, this can be safely ignored. {e}")
