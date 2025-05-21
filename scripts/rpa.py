@@ -143,14 +143,23 @@ class WebsiteNavigationRPA:
             logger.info(f"Using search URL: {search_url}")
 
             # Navigate directly to search URL
-            self.driver.get(search_url)
+            timeout = 5  # seconds
+            start = time.time()
 
-            # Wait for search results to load
-            logger.info("Search complete")
+            while time.time() - start < timeout:
+                self.driver.get(search_url)
+                time.sleep(0.25)
+                if self.driver.current_url == search_url:
+                    # Wait for search results to load
+                    logger.info("Search complete")
+                    break
+
+            if self.driver.current_url != search_url:
+                raise Exception('Search page could not be loaded!')
 
         except Exception as e:
             logger.error(f"Error during search: {e}")
-            raise
+            return []
 
         try:
             posts = self.wait.until(
