@@ -108,7 +108,7 @@ class BookSearch(Extension):
                                 if torrent:
                                     self.latest_torrent = torrent
                                     await self.bot.owner.send(
-                                        f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}. Current status: {torrent.status})")
+                                        f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}.)")
                                     logger.info("Transmission sequence complete!")
                                 else:
                                     logger.error("Could not download torrent using magnet link.")
@@ -134,7 +134,7 @@ class BookSearch(Extension):
                                         os.remove(entry.path)
                                         # Send owner a message
                                         await self.bot.owner.send(
-                                            f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}. Current status: {torrent.status})")
+                                            f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}.)")
                                         logger.info("Transmission sequence complete!")
                                     else:
                                         logger.warning("Removing file to avoid duplicates.")

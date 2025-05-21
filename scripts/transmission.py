@@ -34,7 +34,6 @@ class TransmissionClient:
             if session:
                 torrent = self.client.add_torrent(torrent=file_path,
                                                   download_dir=os.getenv('TRANSMISSION_DOWNLOAD', '/downloads'))
-                logger.info(f'Name: {torrent.name}, Status: {torrent.status}')
 
                 return torrent
 
