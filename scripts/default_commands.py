@@ -28,7 +28,7 @@ class BookSearch(Extension):
 
     # Commands
 
-    @slash_command(name='get-book',
+    @slash_command(name='request-book',
                    description="Find a book. Important! This will do its best, but can still fail.")
     @slash_option(name="book",
                   description="Book Title. Please be as accurate as possible ex: 'HWFWM 11', and not just 'HWFWM'.",
