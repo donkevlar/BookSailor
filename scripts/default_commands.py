@@ -23,8 +23,7 @@ class BookSearch(Extension):
     async def book_search_rpa(self, query: str):
         self.rpa.nav_login_page()
         self.rpa.handle_login()
-        self.rpa.search_query(query)
-        results = self.rpa.get_search_result_titles()
+        results = self.rpa.get_search_result_titles(query)
         return results
 
     # Commands

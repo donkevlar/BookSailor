@@ -131,13 +131,15 @@ class WebsiteNavigationRPA:
         except Exception as e:
             logger.error(f"Error navigating to login page! {e}")
 
-    def search_query(self, query):
+    def get_search_result_titles(self, query):
+        """Return a list of (title, url) tuples from search results without navigating."""
+        logger.info("Fetching search result titles")
         """
-        Navigate to the search results page for the given query
+                Navigate to the search results page for the given query
 
-        Args:
-            query (str): The search query
-        """
+                Args:
+                    query (str): The search query
+                """
         logger.info(f"Searching for: {query}")
 
         try:
@@ -150,16 +152,11 @@ class WebsiteNavigationRPA:
             self.driver.get(search_url)
 
             # Wait for search results to load
-            time.sleep(1)
             logger.info("Search complete")
 
         except Exception as e:
             logger.error(f"Error during search: {e}")
             raise
-
-    def get_search_result_titles(self):
-        """Return a list of (title, url) tuples from search results without navigating."""
-        logger.info("Fetching search result titles")
 
         try:
             posts = self.wait.until(
