@@ -1,8 +1,10 @@
+import asyncio
 import os
 from interactions import *
 from interactions.api.events import *
 import rpa as r
 import logging
+from transmission import TransmissionClient
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -15,6 +17,7 @@ class BookSearch(Extension):
         self.rpa = r.WebsiteNavigationRPA(username=os.getenv('USERNAME'), password=os.getenv('PASSWORD'),
                                           base_url="https://audiobookbay.lu", download_dir=os.getenv('DOWNLOAD_DIR'))
         self.book_result = []
+        self.latest_torrent = None
 
     # Functions --------------
     async def book_search_rpa(self, query: str):
@@ -101,7 +104,21 @@ class BookSearch(Extension):
                             logger.info(f"File Downloaded: {self.rpa.files_downloaded}")
                             # Check if file is downloaded
                             if self.rpa.files_downloaded:
-                                await ctx.send(content=f"Successfully downloaded: **{title}**")
+                                logger.info("Attempting to transfer torrent to transmission...")
+                                dir_items = os.scandir(self.rpa.download_dir)
+                                for entry in dir_items:
+                                    c = TransmissionClient()
+                                    torrent = c.load_torrent(file_path=entry.path)
+                                    self.latest_torrent = torrent
+                                    # Give the system a moment to upload the file
+                                    await asyncio.sleep(0.5)
+                                    logger.info("File uploaded to transmission, removing from directory!")
+                                    os.remove(entry.path)
+                                    # Send owner a message
+                                    await self.bot.owner.send(
+                                        f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}. Current status: {torrent.status})")
+                                await ctx.send(content=f"Download has begun for **{title}**")
+
                             else:
                                 await ctx.send(
                                     content=f"Could not download: **{title}**. Please visit logs for more information.")
