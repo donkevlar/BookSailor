@@ -106,6 +106,7 @@ class BookSearch(Extension):
                                 torrent = c.load_torrent(file_path=self.rpa.magnet_link)
                                 if torrent:
                                     self.latest_torrent = torrent
+                                    await ctx.send(content=f"Download has begun for **{title}**")
                                     await self.bot.owner.send(
                                         f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}.)")
                                     logger.info("Transmission sequence complete!")
@@ -132,9 +133,11 @@ class BookSearch(Extension):
                                         logger.info("File uploaded to transmission, removing from directory!")
                                         os.remove(entry.path)
                                         # Send owner a message
+                                        await ctx.send(content=f"Download has begun for **{title}**")
                                         await self.bot.owner.send(
-                                            f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}.)")
+                                            f"User **{ctx.user.display_name}** has started the download for {title}. Please visit {c.host}:{c.port}.")
                                         logger.info("Transmission sequence complete!")
+
                                     else:
                                         logger.warning("Removing file to avoid duplicates.")
                                         os.remove(entry.path)
@@ -144,7 +147,6 @@ class BookSearch(Extension):
 
                                         await ctx.send(f'An error occured while attempting to transfer the book **{title}** to the server, please reach out to the server owner for more details.')
                                         return
-                                await ctx.send(content=f"Download has begun for **{title}**")
 
                             else:
                                 await ctx.send(
