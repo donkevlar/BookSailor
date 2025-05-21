@@ -121,6 +121,7 @@ class BookSearch(Extension):
                                         logger.info("Transmission sequence complete!")
                                     else:
                                         logger.error("Removing file to avoid duplicates.")
+                                        os.remove(entry.path)
                                         # Attempt to delete original
                                         await ctx.delete()
                                         await ctx.send(f'An error occured while attempting to transfer the book **{title}** to the server, please reach out to the server owner for more details.')
