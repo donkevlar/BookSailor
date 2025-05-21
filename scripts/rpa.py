@@ -29,6 +29,7 @@ class WebsiteNavigationRPA:
         self.username = username
         self.password = password
         self.files_downloaded = False
+        self.magnet_link = None
 
         # Set up Chrome options
         chrome_options = Options()
@@ -194,6 +195,32 @@ class WebsiteNavigationRPA:
         self.files_downloaded = False
         """Process the download page to find and click download links on AudioBookBay.lu"""
         logger.info("Processing download page")
+
+        try:
+            magnet_button = self.wait.until(
+                EC.element_to_be_clickable(
+                    (By.XPATH, "//*[contains(@id, 'magnetLink')]")
+                )
+            )
+
+            magnet_button.click()
+
+            magnet_icon = self.wait.until(
+                EC.presence_of_element_located(
+                    (By.ID, "magnetIcon")
+                )
+            )
+
+            magnet_url = magnet_icon.get_attribute("href")
+            self.magnet_link = magnet_url
+
+            logger.info("Successfully retrieved magnet link, skipping download. ")
+            logger.info(f"Magnet Link: {self.magnet_link}")
+
+            return magnet_url
+
+        except Exception as e:
+            logger.error(f"Could not get magnet link, attempting download. {e}")
 
         try:
             # Wait for the link to appear using text match

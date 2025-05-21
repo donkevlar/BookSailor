@@ -100,10 +100,26 @@ class BookSearch(Extension):
 
                         if int(int_id) == int(value):
                             # RPA Process
-                            file_downloaded = self.rpa.process_post_by_url(title=title, url=url)
-                            logger.info(f"File Downloaded: {self.rpa.files_downloaded}")
+                            outcome = self.rpa.process_post_by_url(title=title, url=url)
+                            # Check if using a magnet link
+                            if self.rpa.magnet_link:
+                                c = TransmissionClient()
+                                torrent = c.load_torrent(file_path=self.rpa.magnet_link)
+                                if torrent:
+                                    self.latest_torrent = torrent
+                                    await self.bot.owner.send(
+                                        f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}. Current status: {torrent.status})")
+                                    logger.info("Transmission sequence complete!")
+                                else:
+                                    await ctx.edit_origin()
+                                    await ctx.delete()
+
+                                    await ctx.send(
+                                        f'An error occured while attempting to transfer the book **{title}** to the server, please reach out to the server owner for more details.')
+                                    return
+
                             # Check if file is downloaded
-                            if self.rpa.files_downloaded:
+                            elif self.rpa.files_downloaded:
                                 logger.info("Attempting to transfer torrent to transmission...")
                                 dir_items = os.scandir(self.rpa.download_dir)
                                 for entry in dir_items:
