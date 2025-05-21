@@ -30,7 +30,7 @@ class TransmissionClient:
             logger.error(f"Could not retrieve the list of torrents. {e}")
 
     def load_torrent(self, file_path: str):
-        logger.info("Attempting to add torrent!")
+        logger.info(f"Attempting to add torrent with path {file_path}")
         try:
             torrent = self.client.add_torrent(torrent=file_path,
                                               download_dir=os.getenv('TRANSMISSION_DOWNLOAD', '/downloads'))
