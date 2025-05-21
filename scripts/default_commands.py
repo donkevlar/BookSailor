@@ -48,13 +48,25 @@ class BookSearch(Extension):
                     is_valid = True
 
             # Components
-            components = StringSelectMenu(
-                options,  # NOQA
-                min_values=1,
-                max_values=1,
-                placeholder="",
-                custom_id='book_select_menu'
-            )
+            components: list[ActionRow] = [
+                ActionRow(
+                    StringSelectMenu(
+                        options,  # NOQA
+                        min_values=1,
+                        max_values=1,
+                        placeholder="",
+                        custom_id='book_select_menu'
+                    )
+                ),
+                ActionRow(
+                    Button(
+                        style=ButtonStyle.RED,
+                        label="Cancel",
+                        custom_id="cancel_button"
+                    )
+                )
+
+            ]
 
             if is_valid:
                 await ctx.send(components=components)
@@ -93,3 +105,8 @@ class BookSearch(Extension):
                             else:
                                 await ctx.send(
                                     content=f"Could not download: **{title}**. Please visit logs for more information.")
+
+            case "cancel_button":
+                await ctx.edit_origin()
+                await ctx.delete()
+                self.book_result = []
