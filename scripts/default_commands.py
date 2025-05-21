@@ -123,7 +123,9 @@ class BookSearch(Extension):
                                         logger.warning("Removing file to avoid duplicates.")
                                         os.remove(entry.path)
                                         # Attempt to delete original
+                                        await ctx.edit_origin()
                                         await ctx.delete()
+
                                         await ctx.send(f'An error occured while attempting to transfer the book **{title}** to the server, please reach out to the server owner for more details.')
                                         return
                                 await ctx.send(content=f"Download has begun for **{title}**")

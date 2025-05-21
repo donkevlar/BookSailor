@@ -32,11 +32,13 @@ class TransmissionClient:
     def load_torrent(self, file_path: str):
         logger.info(f"Attempting to add torrent with path {file_path}")
         try:
-            torrent = self.client.add_torrent(torrent=file_path,
-                                              download_dir=os.getenv('TRANSMISSION_DOWNLOAD', '/downloads'))
-            logger.info(f'Name: {torrent.name}, Status: {torrent.status}')
+            session = self.client.get_session()
+            if session:
+                torrent = self.client.add_torrent(torrent=file_path,
+                                                  download_dir=os.getenv('TRANSMISSION_DOWNLOAD', '/downloads'))
+                logger.info(f'Name: {torrent.name}, Status: {torrent.status}')
 
-            return torrent
+                return torrent
 
         except error.TransmissionError as e:
             logger.error(f"Failed to add torrent: {e}")
