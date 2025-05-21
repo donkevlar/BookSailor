@@ -37,7 +37,7 @@ class WebsiteNavigationRPA:
         # Add options to handle common issues
         chrome_options.add_argument("--disable-notifications")  # Disable notifications
         chrome_options.add_argument("--disable-popup-blocking")  # Disable popup blocking
-        chrome_options.add_argument('--headless=new')  # 'new' headless mode supports downloads
+        # chrome_options.add_argument('--headless=new')  # 'new' headless mode supports downloads
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-dev-shm-usage')
 
@@ -211,11 +211,18 @@ class WebsiteNavigationRPA:
                 )
             )
 
-            magnet_url = magnet_icon.get_attribute("href")
-            self.magnet_link = magnet_url
+            timeout = 5  # seconds
+            start = time.time()
+            magnet_url = None
+
+            while time.time() - start < timeout:
+                magnet_url = magnet_icon.get_attribute("href")
+                if magnet_url:
+                    break
+                time.sleep(0.5)
 
             logger.info("Successfully retrieved magnet link, skipping download. ")
-            logger.info(f"Magnet Link: {self.magnet_link}")
+            logger.info(f"Tag Name: {magnet_icon.tag_name}, Magnet Link: {magnet_url}")
 
             return magnet_url
 

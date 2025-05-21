@@ -102,7 +102,7 @@ class BookSearch(Extension):
                             # RPA Process
                             outcome = self.rpa.process_post_by_url(title=title, url=url)
                             # Check if using a magnet link
-                            if self.rpa.magnet_link:
+                            if self.rpa.magnet_link or outcome:
                                 c = TransmissionClient()
                                 torrent = c.load_torrent(file_path=self.rpa.magnet_link)
                                 if torrent:
@@ -111,6 +111,7 @@ class BookSearch(Extension):
                                         f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}. Current status: {torrent.status})")
                                     logger.info("Transmission sequence complete!")
                                 else:
+                                    logger.error("Could not download torrent using magnet link.")
                                     await ctx.edit_origin()
                                     await ctx.delete()
 
