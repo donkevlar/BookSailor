@@ -37,7 +37,7 @@ class WebsiteNavigationRPA:
         # Add options to handle common issues
         chrome_options.add_argument("--disable-notifications")  # Disable notifications
         chrome_options.add_argument("--disable-popup-blocking")  # Disable popup blocking
-        # chrome_options.add_argument('--headless=new')  # 'new' headless mode supports downloads
+        chrome_options.add_argument('--headless=new')  # 'new' headless mode supports downloads
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-dev-shm-usage')
 

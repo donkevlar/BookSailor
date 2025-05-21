@@ -1,8 +1,6 @@
 from transmission_rpc import Client, error
 from dotenv import load_dotenv
 import logging
-import base64
-import time
 import os
 
 load_dotenv()
