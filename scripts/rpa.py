@@ -223,6 +223,7 @@ class WebsiteNavigationRPA:
 
             logger.info("Successfully retrieved magnet link, skipping download. ")
             logger.info(f"Tag Name: {magnet_icon.tag_name}, Magnet Link: {magnet_url}")
+            self.magnet_link = magnet_url
 
             return magnet_url
 
