@@ -133,7 +133,6 @@ class WebsiteNavigationRPA:
 
     def get_search_result_titles(self, query):
         """Return a list of (title, url) tuples from search results without navigating."""
-        logger.info("Fetching search result titles")
 
         logger.info(f"Searching for: {query}")
 
