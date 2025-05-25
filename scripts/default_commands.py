@@ -104,7 +104,7 @@ class BookSearch(Extension):
                             # Check if using a magnet link
                             if self.rpa.magnet_link or outcome:
                                 # Quit chrome session
-                                self.rpa.quit_current_session()
+                                # self.rpa.quit_current_session()
 
                                 try:
                                     # Start transmission sequence
@@ -114,7 +114,7 @@ class BookSearch(Extension):
                                         self.latest_torrent = torrent
                                         await ctx.send(content=f"Download has begun for **{title}**")
                                         await self.bot.owner.send(
-                                            f"User **{ctx.user.display_name}** has started the download for {title}. Please visit [Transmission]({c.host}:{c.port}.)")
+                                            f"User **{ctx.user.display_name}** has started the download for {title}. Please visit {c.host}:{c.port}.")
                                         logger.info("Transmission sequence complete!")
                                     else:
                                         logger.error("Could not download torrent using magnet link.")
@@ -134,7 +134,7 @@ class BookSearch(Extension):
                                 dir_items = os.scandir(self.rpa.download_dir)
                                 for entry in dir_items:
                                     # Quit chrome session
-                                    self.rpa.quit_current_session()
+                                    # self.rpa.quit_current_session()
                                     try:
                                         # Start transmission sequence
                                         c = TransmissionClient()
@@ -158,7 +158,8 @@ class BookSearch(Extension):
                                             await ctx.edit_origin()
                                             await ctx.delete()
 
-                                            await ctx.send(f'An error occured while attempting to transfer the book **{title}** to the server, please reach out to the server owner for more details.')
+                                            await ctx.send(
+                                                f'An error occured while attempting to transfer the book **{title}** to the server, please reach out to the server owner for more details.')
                                             return
                                     except Exception as e:
                                         logger.error(f"Could not download torrent. {e}")
@@ -167,16 +168,16 @@ class BookSearch(Extension):
                                 await ctx.send(
                                     content=f"Could not download: **{title}**. Please visit logs for more information.")
                                 # Quit chrome session
-                                self.rpa.quit_current_session()
+                                # self.rpa.quit_current_session()
 
             case "cancel_button":
                 await ctx.edit_origin()
                 await ctx.delete()
                 self.book_result = []
 
-                try:
-                    # Quit chrome session
-                    self.rpa.quit_current_session()
+                # try:
+                # Quit chrome session
+                #    self.rpa.quit_current_session()
 
-                except Exception as e:
-                    logger.warning(f"Issue with closing chrome session, this can be safely ignored. {e}")
+                #except Exception as e:
+                #    logger.warning(f"Issue with closing chrome session, this can be safely ignored. {e}")
