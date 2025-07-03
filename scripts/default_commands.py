@@ -83,7 +83,7 @@ class BookSearch(Extension):
                    description="Use an accepted url format to directly download a book. This will mitigate any errors and also be uploaded to the bookshelf server.")
     @slash_option(name='url', description='URL of the book you want to download.', opt_type=OptionType.STRING,
                   required=True)
-    async def url_download_comm(self, ctx: SlashContext, title: str, url: str):
+    async def url_download_comm(self, ctx: SlashContext, url: str):
         from urllib.parse import urlparse
 
         await ctx.defer()
@@ -117,9 +117,9 @@ class BookSearch(Extension):
                     torrent = c.load_torrent(file_path=self.rpa.magnet_link)
                     if torrent:
                         self.latest_torrent = torrent
-                        await ctx.send(content=f"Download has begun for **{title}**")
+                        await ctx.send(content=f"Download has begun for **{self.rpa.title}**")
                         await self.bot.owner.send(
-                            f"User **{ctx.user.display_name}** has started the download for {title}. Please visit {c.host}:{c.port}.")
+                            f"User **{ctx.user.display_name}** has started the download for {self.rpa.title}. Please visit {c.host}:{c.port}.")
                         logger.info("Transmission sequence complete!")
 
             except Exception as e:
