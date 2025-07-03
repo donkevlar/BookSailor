@@ -80,7 +80,7 @@ class BookSearch(Extension):
             await ctx.send("No results found! Please try another title.", ephemeral=True)
 
     @slash_command(name="direct-download",
-                   description="Use an accepted url format to directly download a book. This will mitigate any errors and also be uploaded to the bookshelf server.")
+                   description="Use an accepted url format to directly download a book.")
     @slash_option(name='url', description='URL of the book you want to download.', opt_type=OptionType.STRING,
                   required=True)
     async def url_download_comm(self, ctx: SlashContext, url: str):
