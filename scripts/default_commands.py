@@ -17,6 +17,7 @@ class BookSearch(Extension):
         self.rpa = None
         self.book_result = []
         self.latest_torrent = None
+        self.delete_time = float(os.getenv('DELETE_TIME', '120.0'))
 
     # Functions --------------
     async def book_search_rpa(self, query: str):
@@ -72,7 +73,7 @@ class BookSearch(Extension):
             ]
 
             if is_valid:
-                await ctx.send(components=components)
+                await ctx.send(components=components, delete_after=self.delete_time)
             else:
                 await ctx.send("Results were inconclusive, please try another title!", ephemeral=True)
 
