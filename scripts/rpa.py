@@ -206,9 +206,9 @@ class WebsiteNavigationRPA:
             return []
 
     def get_post_info(self):
-        """Returns the title and author of the current page in text format"""
+        """Returns the title and author of the current page in text format. Must be in the given download page."""
         try:
-            title_element = self.driver.find_element(By.CSS_SELECTOR, '.postTitle h2 a')
+            title_element = self.driver.find_element(By.CSS_SELECTOR, 'h1[itemprop="name"]')
             title = title_element.text
             self.title = title
 
