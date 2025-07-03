@@ -17,7 +17,6 @@ class BookSearch(Extension):
         self.rpa = None
         self.book_result = []
         self.latest_torrent = None
-        self.delete_time = float(os.getenv('DELETE_TIME', '120.0'))
 
     # Functions --------------
     async def book_search_rpa(self, query: str):
@@ -73,12 +72,60 @@ class BookSearch(Extension):
             ]
 
             if is_valid:
-                await ctx.send(components=components, delete_after=self.delete_time)
+                await ctx.send(components=components, delete_after=120)
             else:
                 await ctx.send("Results were inconclusive, please try another title!", ephemeral=True)
 
         else:
             await ctx.send("No results found! Please try another title.", ephemeral=True)
+
+    @slash_command(name="direct-download",
+                   description="Use an accepted url format to directly download a book. This will mitigate any errors and also be uploaded to the bookshelf server.")
+    @slash_option(name='url', description='URL of the book you want to download.', opt_type=OptionType.STRING,
+                  required=True)
+    async def url_download_comm(self, ctx: SlashContext, title: str, url: str):
+        from urllib.parse import urlparse
+
+        await ctx.defer()
+        accepted_urls = ['audiobookbay.lu']
+        logger.info(f"URL Provided: {url}")
+
+        parsed_url = urlparse(url)
+        domain = parsed_url.netloc.lower().replace('www.', '')
+
+        if domain in accepted_urls:
+            logger.info(f'URL Accepted: {url}')
+            try:
+                self.rpa = r.WebsiteNavigationRPA(username=os.getenv('USERNAME'), password=os.getenv('PASSWORD'),
+                                                  base_url="https://audiobookbay.lu",
+                                                  download_dir=os.getenv('DOWNLOAD_DIR'))
+                self.rpa.nav_login_page()
+                self.rpa.handle_login()
+                self.rpa.driver.get(url)
+                self.rpa.get_post_info()
+                post_title = self.rpa.title
+                post_author = self.rpa.author
+                logger.info(f"Successfully navigated to post: {post_title}, Author: {post_author}")
+                outcome = self.rpa.process_download_page()
+
+                if self.rpa.magnet_link or outcome:
+                    # Quit chrome session
+                    # self.rpa.quit_current_session()
+
+                    # Start transmission sequence
+                    c = TransmissionClient()
+                    torrent = c.load_torrent(file_path=self.rpa.magnet_link)
+                    if torrent:
+                        self.latest_torrent = torrent
+                        await ctx.send(content=f"Download has begun for **{title}**")
+                        await self.bot.owner.send(
+                            f"User **{ctx.user.display_name}** has started the download for {title}. Please visit {c.host}:{c.port}.")
+                        logger.info("Transmission sequence complete!")
+
+            except Exception as e:
+                print(e)
+        else:
+            await ctx.send(f'Unsupported URL format provided! URL must include {accepted_urls}', ephemeral=True)
 
     # Callbacks ----------------
 

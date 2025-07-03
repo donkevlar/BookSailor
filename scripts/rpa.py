@@ -28,6 +28,8 @@ class WebsiteNavigationRPA:
         self.base_url = base_url
         self.username = username
         self.password = password
+        self.title = None
+        self.author = None
         self.files_downloaded = False
         self.magnet_link = None
 
@@ -202,6 +204,22 @@ class WebsiteNavigationRPA:
         except Exception as e:
             logger.error(f"Failed to retrieve post list: {e}")
             return []
+
+    def get_post_info(self):
+        """Returns the title and author of the current page in text format"""
+        try:
+            title_element = self.driver.find_element(By.CSS_SELECTOR, '.postTitle h2 a')
+            title = title_element.text
+            self.title = title
+
+            author_element = self.driver.find_element(By.CSS_SELECTOR, 'span.author')
+            author = author_element.text
+            self.author = author
+
+            return title, author
+
+        except Exception as e:
+            logger.error(f"Could not find title or author due to an error... {e}")
 
     def process_post_by_url(self, title, url):
         """Given a title and URL, navigate and trigger download logic."""
