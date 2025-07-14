@@ -341,6 +341,9 @@ class WebsiteNavigationRPA:
             logger.error(f"Error on download page: {e}")
             raise
 
+        finally:
+            self.driver.close()
+
 
 if __name__ == "__main__":
     print("Where's RACHEL!!!!!")
