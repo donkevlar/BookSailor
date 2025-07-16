@@ -77,7 +77,7 @@ class BookSearch(Extension):
                 await ctx.send("Results were inconclusive, please try another title!", ephemeral=True)
 
         else:
-            await ctx.send("No results found! Please try another title. Please try visiting the source [website](https://audiobookbay.lu) for more results. "
+            await ctx.send("No results found! Please try another title. Please try visiting the source [website](<https://audiobookbay.lu>) for more results. "
                            "Note if you find the desired book, use the `/direct-download` command and paste the url of the book page.", ephemeral=True)
 
     @slash_command(name="direct-download",
