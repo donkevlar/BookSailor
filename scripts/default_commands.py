@@ -77,7 +77,8 @@ class BookSearch(Extension):
                 await ctx.send("Results were inconclusive, please try another title!", ephemeral=True)
 
         else:
-            await ctx.send("No results found! Please try another title.", ephemeral=True)
+            await ctx.send("No results found! Please try another title. Please try visiting the source [website](https://audiobookbay.lu) for more results. "
+                           "Note if you find the desired book, use the `/direct-download` command and paste the url of the book page.", ephemeral=True)
 
     @slash_command(name="direct-download",
                    description="Use an accepted url format to directly download a book.")
@@ -151,8 +152,6 @@ class BookSearch(Extension):
                             outcome = self.rpa.process_post_by_url(title=title, url=url)
                             # Check if using a magnet link
                             if self.rpa.magnet_link or outcome:
-                                # Quit chrome session
-                                # self.rpa.quit_current_session()
 
                                 try:
                                     # Start transmission sequence
