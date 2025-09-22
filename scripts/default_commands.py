@@ -39,12 +39,14 @@ class BookSearch(Extension):
                 current_status = tor.status
                 approved = ["seeding", "seed pending"]
                 if current_status in approved:
-                    logger.info(f"Finished Torrent Found! {tor.name}")
+                    logger.debug(f"Finished Torrent Found! {tor.name}")
                     approved_torrent_list.append(tor.name)
 
             if latest in approved_torrent_list:
                 await self.bot.owner.send(f"Download finished for {approved_torrent_list[0]}")
                 self.latest_torrent = None
+            else:
+                logger.info(f"Torrent {latest} is still downloading...")
 
     # Commands
 
