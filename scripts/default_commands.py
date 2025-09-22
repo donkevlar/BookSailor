@@ -16,6 +16,7 @@ class BookSearch(Extension):
     def __init__(self, bot):
         self.rpa = None
         self.book_result = []
+        self.active_torrents = []
         self.latest_torrent = None
 
     # Functions --------------
@@ -30,21 +31,25 @@ class BookSearch(Extension):
     @Task.create(trigger=IntervalTrigger(minutes=1))
     async def tor_status_check(self):
         latest = self.latest_torrent
-        if latest:
-            logger.info(f"Verifying if latest torrent: {latest} has finished downloading...")
+        if latest or self.active_torrents:
+            logger.info(f"Verifying is torrents: {latest} or any of the {len(self.active_torrents)} active torrents has finished downloading...")
             t = TransmissionClient()
             torrents = t.get_torrents()
             approved_torrent_list = []
             for tor in torrents:
                 current_status = tor.status
-                approved = ["seeding", "seed pending"]
+                approved = {"seeding", "seed pending"}
                 if current_status in approved:
                     logger.debug(f"Finished Torrent Found! {tor.name}")
                     approved_torrent_list.append(tor.name)
 
-            if latest in approved_torrent_list:
+            if latest in approved_torrent_list or any(t in approved_torrent_list for t in self.active_torrents):
                 await self.bot.owner.send(f"Download finished for {approved_torrent_list[0]}")
                 self.latest_torrent = None
+                self.active_torrents = [
+                    t for t in self.active_torrents
+                    if t not in approved_torrent_list
+                ]
             else:
                 logger.info(f"Torrent {latest} is still downloading...")
 
@@ -141,6 +146,7 @@ class BookSearch(Extension):
                     torrent = c.load_torrent(file_path=self.rpa.magnet_link)
                     if torrent:
                         self.latest_torrent = torrent
+                        self.active_torrents.append(torrent)
                         self.tor_status_check.start()
                         await ctx.send(content=f"Download has begun for **{self.rpa.title}**")
                         await self.bot.owner.send(
@@ -219,6 +225,7 @@ class BookSearch(Extension):
                                             logger.info("File uploaded to transmission, removing from directory!")
                                             os.remove(entry.path)
                                             # Send owner a message
+                                            self.active_torrents.append(torrent)
                                             await ctx.send(content=f"Download has begun for **{title}**")
                                             await self.bot.owner.send(
                                                 f"User **{ctx.user.display_name}** has started the download for {title}. Please visit {c.host}:{c.port}.")
