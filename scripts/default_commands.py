@@ -53,6 +53,9 @@ class BookSearch(Extension):
             else:
                 logger.info(f"Torrent {latest} is still downloading...")
 
+            if len(self.active_torrents) < 1:
+                self.tor_status_check.stop()
+
     # Commands
 
     @slash_command(name='request-book',
