@@ -146,7 +146,7 @@ class BookSearch(Extension):
                     torrent = c.load_torrent(file_path=self.rpa.magnet_link)
                     if torrent:
                         self.latest_torrent = torrent.name
-                        self.active_torrents.append(torrent)
+                        self.active_torrents.append(torrent.name)
                         self.tor_status_check.start()
                         await ctx.send(content=f"Download has begun for **{self.rpa.title}**")
                         await self.bot.owner.send(
@@ -225,7 +225,7 @@ class BookSearch(Extension):
                                             logger.info("File uploaded to transmission, removing from directory!")
                                             os.remove(entry.path)
                                             # Send owner a message
-                                            self.active_torrents.append(torrent)
+                                            self.active_torrents.append(torrent.name)
                                             await ctx.send(content=f"Download has begun for **{title}**")
                                             await self.bot.owner.send(
                                                 f"User **{ctx.user.display_name}** has started the download for {title}. Please visit {c.host}:{c.port}.")
