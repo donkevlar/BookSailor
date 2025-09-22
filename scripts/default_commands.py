@@ -91,7 +91,6 @@ class BookSearch(Extension):
             ]
 
             if is_valid:
-                self.tor_status_check.start()
                 await ctx.send(components=components, delete_after=120)
             else:
                 await ctx.send("Results were inconclusive, please try another title!", ephemeral=True)
@@ -182,6 +181,7 @@ class BookSearch(Extension):
                                     torrent = c.load_torrent(file_path=self.rpa.magnet_link)
                                     if torrent:
                                         self.latest_torrent = torrent
+                                        self.tor_status_check.start()
                                         await ctx.send(content=f"Download has begun for **{title}**")
                                         await self.bot.owner.send(
                                             f"User **{ctx.user.display_name}** has started the download for {title}. Please visit {c.host}:{c.port}.")
@@ -211,6 +211,7 @@ class BookSearch(Extension):
                                         torrent = c.load_torrent(file_path=entry.path)
                                         if torrent:
                                             self.latest_torrent = torrent
+                                            self.tor_status_check.start()
                                             # Give the system a moment to upload the file
                                             await asyncio.sleep(0.5)
                                             logger.info("File uploaded to transmission, removing from directory!")
