@@ -145,7 +145,7 @@ class BookSearch(Extension):
                     c = TransmissionClient()
                     torrent = c.load_torrent(file_path=self.rpa.magnet_link)
                     if torrent:
-                        self.latest_torrent = torrent
+                        self.latest_torrent = torrent.name
                         self.active_torrents.append(torrent)
                         self.tor_status_check.start()
                         await ctx.send(content=f"Download has begun for **{self.rpa.title}**")
@@ -188,7 +188,7 @@ class BookSearch(Extension):
                                     c = TransmissionClient()
                                     torrent = c.load_torrent(file_path=self.rpa.magnet_link)
                                     if torrent:
-                                        self.latest_torrent = torrent
+                                        self.latest_torrent = torrent.name
                                         self.tor_status_check.start()
                                         await ctx.send(content=f"Download has begun for **{title}**")
                                         await self.bot.owner.send(
@@ -218,7 +218,7 @@ class BookSearch(Extension):
                                         c = TransmissionClient()
                                         torrent = c.load_torrent(file_path=entry.path)
                                         if torrent:
-                                            self.latest_torrent = torrent
+                                            self.latest_torrent = torrent.name
                                             self.tor_status_check.start()
                                             # Give the system a moment to upload the file
                                             await asyncio.sleep(0.5)
