@@ -27,6 +27,25 @@ class BookSearch(Extension):
         results = self.rpa.get_search_result_titles(query)
         return results
 
+    @Task.create(trigger=IntervalTrigger(minutes=1))
+    async def tor_status_check(self):
+        latest = self.latest_torrent
+        if latest:
+            logger.info(f"Verifying if latest torrent: {latest} has finished downloading...")
+            t = TransmissionClient()
+            torrents = t.get_torrents()
+            approved_torrent_list = []
+            for tor in torrents:
+                current_status = tor.status
+                approved = ["seeding", "seed pending"]
+                if current_status in approved:
+                    logger.info(f"Finished Torrent Found! {tor.name}")
+                    approved_torrent_list.append(tor.name)
+
+            if latest in approved_torrent_list:
+                await self.bot.owner.send(f"Download finished for {approved_torrent_list[0]}")
+                self.latest_torrent = None
+
     # Commands
 
     @slash_command(name='request-book',
@@ -72,13 +91,16 @@ class BookSearch(Extension):
             ]
 
             if is_valid:
+                self.tor_status_check.start()
                 await ctx.send(components=components, delete_after=120)
             else:
                 await ctx.send("Results were inconclusive, please try another title!", ephemeral=True)
 
         else:
-            await ctx.send("No results found! Please try another title. Please try visiting the source [website](<https://audiobookbay.lu>) for more results. "
-                           "Note if you find the desired book, use the `/direct-download` command and paste the url of the book page.", ephemeral=True)
+            await ctx.send(
+                "No results found! Please try another title. Please try visiting the source [website](<https://audiobookbay.lu>) for more results. "
+                "Note if you find the desired book, use the `/direct-download` command and paste the url of the book page.",
+                ephemeral=True)
 
     @slash_command(name="direct-download",
                    description="Use an accepted url format to directly download a book.")
@@ -118,6 +140,7 @@ class BookSearch(Extension):
                     torrent = c.load_torrent(file_path=self.rpa.magnet_link)
                     if torrent:
                         self.latest_torrent = torrent
+                        self.tor_status_check.start()
                         await ctx.send(content=f"Download has begun for **{self.rpa.title}**")
                         await self.bot.owner.send(
                             f"User **{ctx.user.display_name}** has started the download for {self.rpa.title}. Please visit {c.host}:{c.port}.")

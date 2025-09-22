@@ -39,3 +39,7 @@ class TransmissionClient:
 
         except error.TransmissionError as e:
             logger.error(f"Failed to add torrent: {e}")
+
+
+if __name__ == "__main__":
+    pass
