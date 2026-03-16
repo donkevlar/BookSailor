@@ -199,8 +199,6 @@ class BookSearch(Extension):
                                         logger.info("Transmission sequence complete!")
                                     else:
                                         logger.error("Could not download torrent using magnet link.")
-                                        await ctx.edit_origin()
-                                        await ctx.delete()
 
                                         await ctx.send(
                                             f'An error occured while attempting to transfer the book **{title}** to the server, please reach out to the server owner for more details.')
@@ -237,9 +235,6 @@ class BookSearch(Extension):
                                         else:
                                             logger.warning("Removing file to avoid duplicates.")
                                             os.remove(entry.path)
-                                            # Attempt to delete original
-                                            await ctx.edit_origin()
-                                            await ctx.delete()
 
                                             await ctx.send(
                                                 f'An error occured while attempting to transfer the book **{title}** to the server, please reach out to the server owner for more details.')

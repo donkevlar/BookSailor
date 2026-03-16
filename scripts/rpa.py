@@ -288,54 +288,54 @@ class WebsiteNavigationRPA:
             # Confirm download started
             logger.info("Download initiated, waiting for file to appear...")
 
-            # Wait and check for new files (download started)
-            max_wait_time = 10  # seconds
-            wait_interval = 1  # second
-            download_started = False
-
-            for _ in range(max_wait_time):
-                time.sleep(wait_interval)
-                current_files = set(os.listdir(self.download_dir))
-                new_files = current_files - before_download
-
-                # Look for temporary download files (Chrome uses .crdownload extension)
-                temp_downloads = [f for f in new_files if f.endswith('.crdownload') or f.endswith('.part')]
-                if temp_downloads:
-                    download_started = True
-                    logger.info(f"Download started: {temp_downloads}")
-                    break
-
-                # Or if the download is very fast and already completed
-                if new_files and not any(f.endswith('.crdownload') or f.endswith('.part') for f in new_files):
-                    download_started = True
-                    files_ = []
-                    logger.info(f"Download instantly completed: {new_files}")
-                    self.files_downloaded = True
-                    files_.append(new_files)
-                    return files_  # Return the downloaded files
-
-            if not download_started:
-                logger.warning("No download appears to have started after waiting")
-                return []
-
-            # Wait for download to complete (temp files to disappear)
-            logger.info("Waiting for download to complete...")
-            download_complete = False
-
-            for _ in range(max_wait_time * 2):  # Longer wait for completion
-                time.sleep(wait_interval)
-                current_files = set(os.listdir(self.download_dir))
-
-                # Check if any temp download files still exist
-                if not any(f.endswith('.crdownload') or f.endswith('.part') for f in current_files):
-                    download_complete = True
-                    new_files = current_files - before_download
-                    logger.info(f"Download completed: {new_files}")
-                    return list(new_files)  # Return the downloaded files
-
-            if not download_complete:
-                logger.warning("Download may still be in progress after maximum wait time")
-                return []
+            # # Wait and check for new files (download started)
+            # max_wait_time = 10  # seconds
+            # wait_interval = 1  # second
+            # download_started = False
+            #
+            # for _ in range(max_wait_time):
+            #     time.sleep(wait_interval)
+            #     current_files = set(os.listdir(self.download_dir))
+            #     new_files = current_files - before_download
+            #
+            #     # Look for temporary download files (Chrome uses .crdownload extension)
+            #     temp_downloads = [f for f in new_files if f.endswith('.crdownload') or f.endswith('.part')]
+            #     if temp_downloads:
+            #         download_started = True
+            #         logger.info(f"Download started: {temp_downloads}")
+            #         break
+            #
+            #     # Or if the download is very fast and already completed
+            #     if new_files and not any(f.endswith('.crdownload') or f.endswith('.part') for f in new_files):
+            #         download_started = True
+            #         files_ = []
+            #         logger.info(f"Download instantly completed: {new_files}")
+            #         self.files_downloaded = True
+            #         files_.append(new_files)
+            #         return files_  # Return the downloaded files
+            #
+            # if not download_started:
+            #     logger.warning("No download appears to have started after waiting")
+            #     return []
+            #
+            # # Wait for download to complete (temp files to disappear)
+            # logger.info("Waiting for download to complete...")
+            # download_complete = False
+            #
+            # for _ in range(max_wait_time * 2):  # Longer wait for completion
+            #     time.sleep(wait_interval)
+            #     current_files = set(os.listdir(self.download_dir))
+            #
+            #     # Check if any temp download files still exist
+            #     if not any(f.endswith('.crdownload') or f.endswith('.part') for f in current_files):
+            #         download_complete = True
+            #         new_files = current_files - before_download
+            #         logger.info(f"Download completed: {new_files}")
+            #         return list(new_files)  # Return the downloaded files
+            #
+            # if not download_complete:
+            #     logger.warning("Download may still be in progress after maximum wait time")
+            #     return []
 
         except Exception as e:
             logger.error(f"Error on download page: {e}")
