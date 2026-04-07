@@ -1,4 +1,4 @@
-discord-py-interactions~=5.14.0
+discord-py-interactions~=5.16.0.0
 python-dotenv
 selenium
 transmission-rpc~=7.0.11
