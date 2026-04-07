@@ -95,6 +95,22 @@ class WebsiteNavigationRPA:
 
         raise RuntimeError("Browserless request failed: " + " | ".join(errors))
 
+    @classmethod
+    def verify_browserless_connection(cls) -> tuple[bool, str]:
+        probe = cls(base_url="https://example.com")
+        script = """
+module.exports = async ({ page }) => {
+  await page.goto('https://example.com', { waitUntil: 'domcontentloaded' });
+  return { ok: true, title: await page.title() };
+};
+""".strip()
+        try:
+            result = probe._execute_browserless(script)
+            title = result.get("title", "unknown")
+            return True, f"Browserless reachable (page title: {title})"
+        except Exception as exc:
+            return False, str(exc)
+
     def _build_script(self, action: str, **kwargs) -> str:
         payload = {
             "action": action,
